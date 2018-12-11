@@ -1,0 +1,299 @@
+33a683b	2016-01-25	 (origin/VALIDATE-APPINFO, VALIDATE-APPINFO)	Validating app id
+b90742f	2016-01-25	 (origin/BUG-SETUP, BUG-SETUP)	Fixing a bug validating the port input value
+11d9aaf	2016-01-21	 (origin/NDSK3.0-DISTRO-1, NDSK3.0-DISTRO-1)	Removing ares-shell,push,pull from ndk_distro
+8c27a31	2016-01-20	 (origin/TVSDK3.0-DISTRO-1, TVSDK3.0-DISTRO-1)	Discarding ares-push from tv_sdk distro
+c0f5b1d	2016-01-19		Discarding ares-shell,pull,log,gdbserver from tv_sdk distro
+c7ac346	2016-01-12	 (origin/CHNSDK-6914-tn, CHNSDK-6914-tn)	Discarding moonstone-2.3, moonstone-2.5 templates from the template list
+1240c17	2016-01-12		Changing hyphen(-) to underscore(_) in the service template name
+2ad4e53	2016-01-11		Fixing a bug regarding js minification error by google closure
+d6c22d2	2016-01-11		fixing undefined variables
+793c303	2016-01-11		Adding -v option for ares-shell
+190ea9d	2016-01-11		fixing a bug using a wrong template id
+e80023f	2016-01-11		verbose logging help for ares-launch
+6f019c8	2016-01-11		Adding ares-shell for tv sdk/ndk distro
+e37859d	2016-01-11		Removing deployscript option from ares-package help
+721cfcc	2016-01-08		Removing enyoVersion property from appinfo.json template
+698890c	2016-01-04		Shortening template names
+138d7d7	2016-01-04		Discarding some files from tv_sdk distro
+d4e3c17	2016-01-04		Adding node modules to gitignore
+b49f867	2015-12-28	 (origin/GEN-HELP, GEN-HELP)	Removing 'library-version' option from ares-generate
+6177637	2015-12-18	 (origin/BUMP_NOVACOM, BUMP_NOVACOM)	Update novacomd (1.16) (modified by soumya.aithal) - Fix issue regarding sockets in CLOSE_WAIT state when device reset
+8c78400	2015-12-16	 (origin/BUG-W2PLUS, BUG-W2PLUS)	Fixing a bug generating icon for watch distro
+1601bb1	2015-12-16		Fixing a bug generating icon for watch distro
+6ac7bb2	2015-12-16	 (origin/CHNSDK-6852, CHNSDK-6852)	Fixing a bug of appinfo.json for w2
+fde8c6e	2015-12-15		Changing script making watch cli distro
+c2e632f	2015-12-15	 (origin/BUG-DEVICE, BUG-DEVICE)	Fix a bug registering new device info
+10b0ec5	2015-12-11	 (origin/VERSION)	Bumping version to 1.5.0
+b0b1787	2015-12-11	 (origin/W2-TEMPLATE, W2-TEMPLATE)	changing distro script excluding files
+6f0de29	2015-12-10		Removing .git files from templates
+fd2096f	2015-12-10		Fixing a condition to identify enyo version
+acbddf5	2015-12-10	 (origin/CHNSDK-6809, CHNSDK-6809)	Fixing wrong path to make cli distro
+5c66441	2015-12-10		Adding native node module (dtrace-provider) on cli mac distro
+c2cc255	2015-12-10		Adding native node module (dtrace-provider) on cli mac distro
+b4b37a3	2015-12-10	 (origin/CHNSDK-6807-svc, CHNSDK-6807-svc)	Commenting the code launching run-js-service via ssh
+8501ead	2015-12-09		Removing useless files from watch_sdk distro
+9db6f0a	2015-12-09		Removing old templates from watch distro
+68f5c51	2015-12-09		Bumping garnet template to v1.5.0-pre.3.2
+4d3036e	2015-12-04	 (origin/CHNSDK-6752-device, CHNSDK-6752-device)	Validating ip and port when registering device info
+91fae56	2015-12-07	 (origin/CHNSDK-6755)	remove debug code
+41aad31	2015-12-07		[CHNSDK-6755] ares-launch is throwing exception on execution with -i command
+f491355	2015-12-04	 (origin/CHNSDK-6742-blank, CHNSDK-6742-blank)	CHNSDK-6742: Handling the ipk files having blank characters in their file name for a proper installation
+36a92f1	2015-12-01	 (origin/CHNSDK-5394, CHNSDK-5394)	changing process.cwd before enyo-dev functions, and recovering process.cwd after that
+8585c9a	2015-12-01		Bumping tv templates for enyo 2.6
+7bd456a	2015-12-01		templates_all fixed : support 2.6 pattern
+9c39322	2015-12-01		removing unused code from ares.html
+b170d7a	2015-12-01		bumping 'install' to 'preinstall' to avoid race condition of npm-installing with enyo-dev
+45a6b6e	2015-12-01		Changing install script to run npm-install for enyo-dev
+ec6c144	2015-12-01		Changing default enyo version to 2.6
+0f0a162	2015-11-30		support enyo 2.6 templates and enyo-dev
+fbf3f20	2015-11-18	 (origin/CHNSDK-6582)	[Bugfix] change the templates deps for garnet and add enyo-cordova into garnet-1.0.zip
+5915d37	2015-11-02	 (origin/CHNSDK-4007-w2, CHNSDK-4007-w2)	Adding SigningTool for watch
+5bcaab7	2015-10-28	 (origin/FIX-HELP, FIX-HELP)	Updating help for ares-gdbserver/novacom/shell
+108430d	2015-10-28		Updating ares-service help
+4893043	2015-10-28		Updating help for ares-log/reboot/root/service
+95093a7	2015-10-28		Updating ares-generate help
+33bf6c1	2015-10-28		Updating ares-build help
+688c07b	2015-10-27		Updating ares-package help
+e4b24d8	2015-10-27	 (origin/NDK-TMPL, NDK-TMPL)	Updating native templates
+f53a756	2015-10-27		Updating help for ares-setup-device/shell
+80b06b7	2015-10-27		Updating ares-setup-device help
+f18b2b4	2015-10-27		Updating help of ares-push/pull/server
+780a3d2	2015-10-27		Updating odd expressions of ares-novacom/package
+1ed8482	2015-10-27		Updating ares-package help
+be13b99	2015-10-27		Updating ares-novacom help
+52d685f	2015-10-27		Updating ares-install help
+f85a805	2015-10-27		Updating ares-install help
+e8fa787	2015-10-27		Updating ares-generate, ares-inspect help
+debc554	2015-10-27		Updating ares-inspect help
+b94b9ec	2015-10-26		Updating ares-generate, ares help
+e8ac569	2015-10-26		Updating ares-generate help
+17f098b	2015-10-26	 (origin/substits-bugfix)	delete useless code
+877aeea	2015-10-26		async bugs fixed
+8ebcfa7	2015-10-23		[Bugfix] Substitution bug : substitute only copied file (not all files in destination)
+7ccac4f	2015-10-21	 (origin/CHNSDK-6470, CHNSDK-6470)	Changing function caller location after defining function
+c986362	2015-10-20		modify the error message & add null id check condition
+a3a936c	2015-10-20	 (origin/CHNSDK-6451-appid, CHNSDK-6451-appid)	Validating app id
+fbe876e	2015-10-19	 (origin/CHNSDK-6339, CHNSDK-6339)	Redefining error message for sftp error code (14)
+86acb6f	2015-10-19	 (origin/CHNSDK-6438-signage, CHNSDK-6438-signage)	Fixing ares-generate example for signage cli
+bfc64e3	2015-10-19		Fixing ares-package example regarding exclude option to use double quotation
+96bf485	2015-10-19		Hiding wait-for-device option from signae/tv profile
+1ac1ea8	2015-10-19	 (origin/CHNSDK-6441-signage, CHNSDK-6441-signage)	Fixing a bug to generate an error when signage app contains content named folder or file
+47e840e	2015-10-19		Fixing typo
+d122df4	2015-10-19		CHNSDK-6438: Unexposing some options for signage cli
+b4a5516	2015-10-15	 (origin/templateBugs, templateBugs)	[BUGFIX]moonstone templates with pattern is not working
+43f0735	2015-10-14	 (origin/CHNSDK-5791-ndk-2, CHNSDK-5791-ndk-2)	CHNSDK-5791-ndk: Use 'x86' as a ipk file suffix instead of 'i586' for native app built by ndk x86 toolchain
+fd3915f	2015-10-14	 (origin/CHNSDK-6373, CHNSDK-6373)	CHNSDK-6373: Fixing typo from template descriptions
+500a364	2015-10-14		[CHNSDK-6339]: Incorrect error handling message while pushing file to no permission folder
+4b1641e	2015-10-13		[CHNSDK-6288]: Incorrect display of help message for ares-push so handled the proper message
+ec0be56	2015-10-13	 (origin/CHNSDK-6332, CHNSDK-6332)	CHNSDK-6332: Removing native-service template from tv_ndk distro
+dc6b87a	2015-10-13	 (origin/CHNSDK-6307, CHNSDK-6307)	Fixing ares-log help text
+5bea8e2	2015-10-13	 (origin/CHNSDK-6289, CHNSDK-6289)	Fixing commands help
+47420b3	2015-10-13		Displaying help text when running ares command with no argument
+de37581	2015-10-13		change the default log file for watch internal developer
+a31bf3a	2015-10-13		delete the ares-log command in watch sdk
+1688943	2015-10-13		modify the help messages and option(id) for each platform
+855dd17	2015-10-13	 (origin/CHNSDK-6331, CHNSDK-6331)	Removing ares-root from watch_sdk distro
+a8d7af9	2015-10-13		CHNSDK-6331: Removing ares-shell from tv_sdk distro
+aa3d342	2015-10-13		modify the code as supported commands only display
+06b4bc8	2015-10-08	 (origin/cli-pack-git-delete2, cli-pack-git-delete2)	Discarding whole files starting .git letters during proceeding cli-pack.js
+bbbd05d	2015-10-08		delete useless code
+34ca075	2015-10-08		add .git files delete code
+bdb1991	2015-10-08	 (CHECK-USB)	fixing typo in jenkins build script
+b239bed	2015-10-08	 (origin/CHNSDK-6210, CHNSDK-6210)	delete the device substring matching condition
+6058b50	2015-10-07	 (origin/BUGFIX-GDBSERVER, BUGFIX-GDBSERVER)	Changing the working directory to APPDIR before launching gdbserver
+4fad581	2015-10-07		changing default novacom-devices.json file
+61bc4f3	2015-10-07		Fixing a bug hanging 'ares-setup-device --reset'
+54ec642	2015-10-07		fixing typo in build script
+e814d51	2015-10-07	 (origin/CHNSDK-6250-bug, CHNSDK-6250-bug)	CHNSDK-6250-Bug: No default device info in signage-cli
+b3a5ccc	2015-10-06		[BugFix] setup device error when cli add new device without profile infomation
+c7bce24	2015-10-05	 (origin/CHNSDK-6228-signage, CHNSDK-6228-signage)	Discarding ares-log from sigange-cli distro
+4a0d48a	2015-10-05	 (origin/CHNSDK-6226-bug-signage, CHNSDK-6226-bug-signage)	Adding a default emulator connection info for signage cli
+1d8ca99	2015-10-02	 (origin/REVERT-CHNSDK-5667, REVERT-CHNSDK-5667)	REVERT-CHNSDK-5667
+5754fbc	2015-10-02	 (origin/CHNSDK-6222-Bug, CHNSDK-6222-Bug)	CHNSDK-6222-Bug: Fixing ares-build error
+96d1afb	2015-10-01		[CHNSDK-6210]: Installed apps are getting listed for devices that do notexist.Do to problem in the string comparison
+dc666e3	2015-09-30		[CHNSDK-6118]: template_all.json giving parsing problem due to invalid profile option
+ffb8d42	2015-09-30		[CHNSDK-6182]: ares-genarate for service is not working in signage
+e6452c0	2015-09-24		delete unused code
+e8bccd6	2015-09-24	 (origin/CHNSDK-6083, CHNSDK-6083)	Adding stderr handler in another ssh exec part
+0b2ed84	2015-09-24	 (origin/CHNSDK6118)	cli package is not working in windows as in JSON.parse the windows path is take as '\' so it is taking it as escape character
+bcb2d6d	2015-09-24		modify the ide-plugin.json creation rutine
+0cb4928	2015-09-24	 (origin/CHNSDK-4987, CHNSDK-4987)	Fixing default value setting rutine in appinfo.json
+094bf32	2015-09-23		Fixing code setting default values in appinfo.json
+c8ed6f6	2015-09-23		Signage CLI does not set default id as com.lg.app.signage in appinfo.json
+196019e	2015-09-23		modify install-host-win.cmd
+2dd3849	2015-09-22		modify the novacom destination location
+2f14a21	2015-09-22		copy the novacom-device.json for sdk
+580f305	2015-09-22		delete useless code
+df3b81f	2015-09-22		modify the script for sdk
+f969e27	2015-09-21		[CHNSDK-6083]: When the ssh exec is executed the data from the GDB server is displaying in the stderr but not on the stdout so adding the error handler condition for stderr data to be displayed
+ff69a63	2015-09-15	 (origin/CHNSDK-5654)	fix minor bugs for help
+51b277a	2015-09-07	 (CHNSDK-5654)	[CHNSDK-5753]: comman CLI command to easy-understand for new webos web application developer
+3a5e14a	2015-09-04		362e2c2b6468687ecd9c7939ea6b04b837e14bde
+362e2c2	2015-09-01		c30ce58105ee4601a63ba1f7245701cd44a43dd9
+7bd9caa	2015-09-01	 (origin/CHNSDK-5667)	[CHNSDK-5667]: ares-install is not installing ipk to target when asm is not running updated with alignment
+233e82e	2015-09-01		[CHNSDK-5667]: ares-install is not installing ipk to target when asm is not running
+c30ce58	2015-08-31		fix ares-setup-device.help error
+df80095	2015-08-27	 (origin/CHNSDK-5791-ndk, CHNSDK-5791-ndk)	Changing a comment reagarding 'Architecture' filed in control for emulator
+db7c756	2015-08-27		fixing a bug to set architecture field in control for emulator
+30e5394	2015-08-27	 (origin/CHNSDK-5389, CHNSDK-5389)	indent
+401b98b	2015-08-27		Adding ares-push/pull to tv/signage build output
+d8e7551	2015-08-27		Closing file stream after use
+972441e	2015-08-26		adding elfy node module
+f9063c4	2015-08-25		Checking ELF format to set Architecture field in control
+c62b1e3	2015-08-25		ares-inspect doesn't work properly when it run on RDC server
+05c95f6	2015-08-25		[CHNSDK-5667]: ares-install is not installing ipk to target when asm is not running
+dbced84	2015-08-25	 (origin/CHNSDK-5884)	CHSNSDK-5884 BUGFIX : delete tempates list replacement script
+e7394a7	2015-08-25		[CHNSDK-5884] BUGFIX : cli-pack doesn't work
+2b961db	2015-08-25		support hidden help menu
+2cfe451	2015-08-24		0ce0dcc428218c8ae1dfce45b85291450dd7a4ad
+b74364d	2015-08-18	 (CHNSDK-5884)	Reverting templates_all for cli-pack
+360287f	2015-08-13		[CHNSDK-5317] Bug fix : new version error for unsupported templates
+fac4277	2015-08-13	 (origin/CHNSDK-5813)	delete hard coded data for package
+601218a	2015-08-13		delete hard coded data until preparing the web server
+a2b9e04	2015-08-13		change the tempaltes_all
+7cad4db	2015-08-11		compare the file size with already downlaoded file
+0ce0dcc	2015-08-11		refactor help-format to support options
+658c4ab	2015-08-10		Fixing typo
+3256565	2015-08-07		seperate help text from binary file & display different help message depeding on the profile
+9e7f501	2015-08-06		BUG-FIX: recovering removed code in order to set exectuable file name same as appinfo.main field for native templates
+a8fde23	2015-08-06		BUG-FIX: ares-push/pull failure when no novacom binary exists - logging instead of causing exception for the result of novacom binary search
+dd57505	2015-08-06		[CHNSDK-5813] extended templates from web server
+4bfdd54	2015-08-06		Adding recursive-readdir
+c12572d	2015-08-03		refactor & support mutiple version from library
+98d41f0	2015-07-31		67bc9acd6695a4f52d9706edb7e7fc94707cc5b4
+b99b3ef	2015-07-31		Fixing error message of ares-log and reference error
+b666ad9	2015-07-30		Updating native templates
+cd8b6c8	2015-07-29		[CHNSDK-5660]: Adding new options in ares-log to get log based on the time with few more changes
+ed124ba	2015-07-29		[CHNSDK-5660]: Adding new options in ares-log to get log based on the time
+d90dc76	2015-07-28		[CHNSDK-5655]: ares-generate should reuse appinfo.json fields if previous appinfo.json exists in the directory with updated fix
+2ae14a9	2015-07-28		removing dummy code from ares-config
+7c44e1a	2015-07-28		indentation of config.json
+0452478	2015-07-28		Removing duplicated variables
+273ef01	2015-07-27		[CHNSDK-5655]: ares-generate should reuse appinfo.json fields if previous appinfo.json exists in the directory
+f82fcee	2015-07-27		CHNSDK-5697: Updating media native template
+38fb8b9	2015-07-24		Changing the code to close localServer for forward-porwarding when ssh connection hang up
+b47313d	2015-07-24		CHNSDK-5633: fix a bug to set execuable file name as same as appinfo.json main field
+133f045	2015-07-23		[CHNSDK-5650]: ares-inspect throws exception when user tries to terminate the ares-inspect manually using ctrl+c
+a2949f7	2015-07-23		Fixing a bug to pull via git for jenkins build
+6936453	2015-07-23		CHNSDK-5665: Fixing README of native templates
+67bc9ac	2015-06-30		JS unit test case for Common CLI commands
+fed01db	2015-07-22		Handling 127 error code for pulling via sftp
+a955e7f	2015-07-22		CHNSDK-5638: ares-package should check the file existence with reffering appinfo.json
+4be9eda	2015-07-22		[CHNSDK-3944]: Supporting file copy feature (push/pull) for TV/sinage after refacoting code for second time
+73bd61a	2015-07-22		CHNSDK-5633: Fixing a bug about miss-matched executable file name for native templates
+31309f3	2015-07-22		CHNSDK-5628: Checking cmake & make before building
+a2f6b2f	2015-07-21		bug fix : debupe bug fix
+2c96a13	2015-07-21		delete .bin dir during packaging
+b9b2cfe	2015-07-21		Changing the code structure to call callback from node module in lib/*.js
+86d2455	2015-07-21		changing native_game to native in type field of appinfo.json for native template
+19f89e5	2015-07-20		add module 'colors' into ares-log.js
+cc5d17b	2015-07-20		Fixing node location in cli deploying script for windows
+37bef34	2015-07-17		[CHNSDK-3944]: Supporting file copy feature (push/pull) for TV/sinage updated after code refactoring
+7b894e3	2015-07-17		[CHNSDK-3944]: Supporting file copy feature (push/pull) for TV/sinage after code refactoring
+5fbc063	2015-07-17		Fixing some help contens of ares-config
+ccd78ee	2015-07-17		68ea987f672bdf639603e51c0a70f2c86d031085
+68ea987	2015-07-16		Current profile details option added.
+7883bc0	2015-07-16		0dd6c01021c513ad65bc3d726ddcb5fb135e864c
+005e73d	2015-07-16		adding ares-config.sh
+328f462	2015-07-16		execution permission for ares-config
+f8d1c50	2015-07-16		[CHNSDK-5554]: Novacom path is not getting loaded properly as the architecture of Linux system is getting as ia32 so handled the code in script file itself to get the path based on archetecture
+0dd6c01	2015-07-15		[CHNSDK-3944]: Supporting file copy feature (push/pull) for TV/sinage
+3320dc7	2015-07-15		defaultAppId should be changed with profile
+227dcf9	2015-07-14		5e228e5b719e098e7d493cc80a9d46e2503baec9
+05e57b3	2015-07-14		5e228e5b719e098e7d493cc80a9d46e2503baec9
+c24f14e	2015-07-14		Adding a comment for later code restructuring
+2d9077f	2015-07-14		Changing README regarding 'platform' argument
+c9a67b1	2015-07-14		[CHNSDK-5500]: CLI Not working in cherry buildÎéÎí -m ÎéÎíCli not working with cherry version binary as the device name changed from w2-linux to msm8926lb-linux
+7fb930a	2015-07-14		modify the install script for linux
+48b6ad2	2015-07-14		integration of linux package
+d74e66f	2015-07-13		delete useless code
+e3ac90d	2015-07-13		changing default id to 'executable_binary' for native templates
+d814abb	2015-07-13		bump version to 1.1.11
+5c42b3c	2015-07-13		Native app's appinfo.json should have 'native' value as a type property by default
+ec0fb1d	2015-07-13		Changing env variable in ares-build.sh due to conflicting in ndk
+5c02911	2015-07-13		CHNSDK-5388-BUGFIX: fixing a bug making wrong inspectable url
+91cdf7d	2015-07-13		Updating native templates
+9bd76d1	2015-07-13		CHNSDK-5472: Launching related ls2 api result has been changed in DRD
+6d57545	2015-07-13	 (origin/cli-package-exclude)	bugfix for excluding files during package
+38563c8	2015-07-09		CHNSDK-5388-BUGFIX: fixing a bug making wrong inspectable url
+f0b8e49	2015-07-09		Changing novacom-devices.json replacement policy
+743cafe	2015-07-09		Removing native_game selection menu for appinfo.json from interactive mode in ares-generate
+8016d48	2015-07-09		fixing a bug to read watch developer key file
+37ab833	2015-07-09		Fixing typo in config
+0049144	2015-07-09		Changing w2 ssh key files location
+752a7a6	2015-07-08		Fixing a bug when ares-setup-device runs in cli deployment package
+e5c0387	2015-07-08		fix miss typo
+2bb6432	2015-07-08		copy install script and novacom binary to bin
+73422f0	2015-07-08		copy datas with target matching
+f6e3056	2015-07-08		Recovering wrong ovewritten files
+12ec3f2	2015-07-08		Adding OpenLevel property in config file
+61a20d7	2015-07-08		add source : rename of cli binary (ex - ares-generate.sh --> ares-generate) for linux and mac
+f87931f	2015-07-08		add novacomscript copy logic
+b35fa29	2015-07-08		Fixing a bug, wrong property in template json
+8f15532	2015-07-07		Supporting inspector files in DRD case
+35f42aa	2015-07-07		shell script for jenkins build
+930aec8	2015-07-07		delete unused code
+c229b2f	2015-07-07		zip packaging rutine changed
+1188305	2015-07-06		bug fix
+1f6ebfb	2015-07-06		Bug Fix and add new options. - support source options for cli source directory.
+2d847ba	2015-07-03		Changing removal files in each config file
+a7cc2d5	2015-07-02		Initial code for cli-package script
+4149b84	2015-07-07		CHNSDK-5382: Update native templates
+57c3e49	2015-07-07		CHNSDK-5322: removing directory name check if it contains special characters
+0d34755	2015-07-03		Minor bug fixes regarding generating app
+fbbe68f	2015-07-02		just calling cmake and make, commenting out most of code in ares-build
+fa256dd	2015-07-01		changing native appinfo.json , icon generation path
+448236e	2015-07-01		intentation and adding code to copy appinfo.json to binary output directory with parsing CMakeLists.txt
+aa02b38	2015-06-30		Simplying ares-build command
+aab88b5	2015-04-23		adding ares-build for webosndk
+98b04e7	2015-06-30		Adding sorting condition for signage template list
+9b2a94e	2015-06-26		Adding templates.json instead of ide-plugin.json
+4203458	2015-06-25		refactor getNovacomPath
+eb3de51	2015-06-25		Adding getNovacomDaemonPath() in novacom-usb
+9d27874	2015-06-25		Adding ares-service command
+0100730	2015-06-24		updata initial code for common-cli
+586cb8c	2015-06-25		Changing .gitmodule to point absolute path
+ec27b18	2015-06-23		indentation
+04e5182	2015-06-23		[BugFix] change the running time of node inspector
+5e53e97	2015-06-22		Re-applying pipe() for linking read/writable streams for ssh2@0.4.8
+46f5470	2015-06-22		bump version to 1.1.10
+b4dde8b	2015-06-19		bump shelljs to 0.5.1 due to shelljs.rm() issue
+803e886	2015-06-17		CHNSDK-5198: bump ssh2 to 0.4.8 for DRD
+c43b23d	2015-05-29		CHNSDK-5082: Fixing a bug replacing path separator on Windows (inspect, gdbserver)
+857e681	2015-05-22		Adding --no-query hidden option to ares-generate to skip user query for IDE
+dffb706	2015-05-18		bump version to 1.1.9
+767bee8	2015-05-12		ares-generate refactoring - delete unused submodule (ares-generator) - For support generation, move the source code to lib (generator.js & copyFile.js from ares-generator) - Support extract action for archive file (.zip) - Unsupport symbolic link feature - Show all types of templates with '-l' option - change the types of templates (web application JS Service, Native Application, Native service)   => ide-plugin.json is not changed (template, webosService, native, nativeService) - Support "at" property (same as prefixToAdd) - Unsupport "class" property as deps (only to use for grouping) - Support new type : library (instead of 'bootplate') - 'deps' property checked 2 times with version (1st - checked only name, 2nd - checked name + version) - remove bootplate-moonstone from submodule within git - modify the sequence of file copy and extraction   => before : files -> deps[0] -> deps[1] -> ...   => after : deps[n] -> deps[n-1] -> ... -> deps[0] -> files - modify the ordering of templates - modify the help content for template type
+c1f4165	2015-04-21		DRD-8383: Remove deprecated code from source
+9e67d3c	2015-04-17		bump version to 1.1.8
+7cc6ad0	2015-04-17		- Changing ipk-copy-location for the case installing app on usb - Adding condition to check sftp error code (127) so that cli can transfer ipk file via ssh general stream instead of sftp
+5e077eb	2015-04-09		bump version to 1.1.7
+d754f25	2015-04-06		CHNSDK-4355: Removed hard-coded app/service path from source
+448ef21	2015-03-27		bump version to 1.1.6
+6e218db	2015-03-18		CHNSDK-4329: adding native templates - native game templates can be listed via ares-generate -l native - a native service template can be listed via ares-generate -l nativeService - if --property is not specified for app templates, ares-geneate query id, title, type, main, version to fill appinfo.json - if --servicename is not specified for service template, ares-generate query id, [executable] to fill services.json
+20be607	2015-03-26		CHNSDK-4408 : appinfo.json encoded with BOM cause parsing error on packaging - Add new node_modules : chardet, strip-bom, encoding - detect the appinfo.json's encoding type and change the type to "UTF-8" - strip the BOM data of the appinfo.json
+fb4df40	2015-03-26		Fixing a bug to determine err/crit level log
+0e557ce	2015-03-13		bump version to 1.1.5
+1332fbd	2015-03-11		CHNSDK-4401: preventing hang from ssh2.sftp() - applying to check sftp availability (this code only works with ssh2@0.2.x, not work ssh2@0.3.x, 0.4,x) - attempting both transmission method sftp and stream for installation - CHNSDK-4447: hide transmission method(sftp, stream) from device info
+5427637	2015-03-11		CHNSDK-4450: Applying log filter condition to ares-log - Filter is series of "tag:level" "tag:level" ... - output is one of default, time and process - '--file, -F' can specify log file path on device
+7a020ac	2015-03-03		bump version to 1.1.4
+a5bd994	2015-03-03		Bug Fix : missing log Text print - add logText Field
+3e0a053	2015-03-03		Bug Fix : Asyncronous Function call modified. - Config File read function is modified. - Bug fix : userTag seperator removed.
+9d6e594	2015-03-02		User Tag Format is changed - User Tag Format is changed. - User Tag Parser modified. (appid/usertag:) - Bug Fix : -HF option does not work without -d option.
+ffbd201	2015-03-02		Bug Fix : Add Default log Config Data - add "logMonotonicTime" Filed (in log-config.json)
+a9cdfa5	2015-03-02		bump version to 1.1.3
+b293422	2015-03-02		bug fix
+1a1aea9	2015-02-27		SPRINT-2: bump version to 1.1.2
+a9f5513	2015-02-27		Fixed a bug to read a host-pc's log file
+a2e5238	2015-02-27		changed default value of log-filter.json
+2c783d7	2015-02-27		Fix bugs
+aa19186	2015-02-27		[Bug Fix] json format fix & add error checker for json file 
+a53e7ec	2015-02-26		[CHNSDK-4002] Add userTag field and bug Fix
+4dc3968	2015-02-26		Add default file for log-filter configuration
+f4b8b10	2015-02-26		[CHNSDK-4009] As a User, I can See log. - Add Log Filter feature (Target File & Host File) - Add Log Config Generator
+bd4adfa	2015-02-25		CHNSDK-4284: Improve userability of ares-setup-device input
+451796c	2015-02-18		BHV-20938: Add override-appinfo option to ares-package
+b21b344	2015-02-05		BHV-21979: Installing apps to the external storage like USB in secure developer mode
+0080826	2015-02-11		CHNSDK-4183: Exception occurs when ares-gdbserver get SIGINT
+fd9fb9a	2015-02-10		CHNSDK-4155: change node dependencies to use over 0.10.0
+c313f91	2015-02-09		SPRINT-1: bump version to 1.1.1
+042e1bb	2015-01-28		CHNSDK-4087: Support 'sysAssetsBasePath' property in appinfo.json for packaging. - 'sysAssetsBasePath' property value should be contained in ipk - no need to handle properties starting with $ prefix on packaging

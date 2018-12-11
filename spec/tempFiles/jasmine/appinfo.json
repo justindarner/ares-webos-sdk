@@ -1,0 +1,21 @@
+{
+  "id": "com.jasmine.app",
+  "version": "0.0.1",
+  "vendor": "your company",
+  "type": "web",
+  "main": "index.html",
+  "title": "jasmine_test",
+  "icon": "icon.png",
+  "uiRevision": 1,
+  "removable": true,
+  "enyoBundleVersion": "2.5",
+  "onDeviceSource": {
+    "enyo": "$frameworks/enyo-bundle/2.5/enyo",
+    "lib/garnet": "$frameworks/enyo-bundle/2.5/lib/garnet",
+    "lib/enyo-webos": "$frameworks/enyo-bundle/2.5/lib/enyo-webos",
+    "lib/enyo-ilib": "$frameworks/enyo-bundle/2.5/lib/enyo-ilib",
+    "lib/enyo-cordova": "$frameworks/enyo-bundle/2.5/lib/enyo-cordova"
+  },
+  "containerJS": "build/app1.js",
+  "containerCSS": "build/app1.css"
+}

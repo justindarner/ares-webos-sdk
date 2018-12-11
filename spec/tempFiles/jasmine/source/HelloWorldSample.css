@@ -1,0 +1,14 @@
+/* helloworld.css */
+
+.main-view {
+	background-color: #121519;
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.g-sample-hello {
+	text-align: center;
+	line-height: 320px;
+}

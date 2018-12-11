@@ -1,0 +1,27 @@
+# Don't check auto-generated stuff into git
+.vscode
+coverage
+build
+dev-release
+node_modules
+stats.json
+package-lock.json
+npm-debug*
+.ipk
+.awcache
+recordings
+
+# used by storybook, later release will let us move this into node_modules/... 
+.cache
+
+# jest-image
+**/__diff_output__
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+# Lock files
+package-lock.json
+yarn.lock

@@ -1,0 +1,22 @@
+{
+	"templates": [
+		{
+			"id": "basic",
+			"isDefault": true,
+			"description": "basic web app for webOS TV",
+			"type": "webapp",
+			"profile": [
+				"tv"
+			]
+		},
+		{
+			"id": "js_service",
+			"isDefault": false,
+			"description": "js service for webOS TV",
+			"type": "jsservice",
+			"profile": [
+				"tv"
+			]
+		}
+	]
+}

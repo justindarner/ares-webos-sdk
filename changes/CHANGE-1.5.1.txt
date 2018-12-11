@@ -1,0 +1,7 @@
+128dcc4	2016-03-29	 (HEAD -> version)	bump version to 1.5.1
+931ad6d	2016-03-29	 (origin/CHNSDK-7430, CHNSDK-7430)	[CHNSDK-7430] checking the port value of ares-server if it is number
+035c21a	2016-03-29		[CHNSDK-7430] user can set the port to use for ares-server
+4f2e778	2016-03-28	 (origin/CHNSDK-7413-enyodev, CHNSDK-7413-enyodev)	[CHNSDK-7413] fixing a bug for minifying enyo 2.6 app
+99701e0	2016-02-19	 (origin/SDKENV, SDKENV)	Adding sdk-installer-env files for packaging cli-distro
+7d56837	2016-02-18		Reading the sdk installation path from the file
+b3b95d7	2016-02-17	 (LAUNCH-URL)	Fixing typo in ares-log help

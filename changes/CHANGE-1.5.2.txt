@@ -1,0 +1,8 @@
+e62c6d8	2016-08-18	 (origin/CHNSDK-8252, CHNSDK-8252)	CHNSDK-8252: Update SCAP sample apps to point scap v1.3
+840f7c2	2016-08-18		CHNSDK-8252: Adding scap-1.3 libraries into all scap templates.
+520212b	2016-08-02	 (origin/CHNSDK-8173, CHNSDK-8173)	CHNSDK-8173: simplify command parameter conversion code. - replace single quotation marks with double quotation marks.
+1864bed	2016-08-11	 (origin/CHNSDK-7339-FileTransfer, CHNSDK-7339-FileTransfer)	CHNSDK-7339: Improve app installation execution time.  - Issue.   In case of not supporting sftp, installer was using stream-buffers to read   an app file and pipe it to the ssh stream. While this procedure,   stream-buffers read the file as default chunk-size 1KB.   Increasing chunk-size can improve the installation execution time.  - Replacing stream-buffers with the builtin stream.   Previously installer put stream-buffers because the old nodejs (v0.8) stream   did not work as intended.   The data was not pumped out to the ssh channel stream.   Now the recent nodejs stream works as intended. There is no issue to pipe it   to the ssh stream.  - Etc.   a. Add a simple test suit for installer   b. Fix a missing callback param in installer function
+2e641a6	2016-04-25	 (origin/bump-novacomd, bump-novacomd)	CHNSDK-7577: Rebuild novacomd for static link with vcruntime.dll
+2c13de9	2016-04-15	 (origin/BUG-undefined-url, BUG-undefined-url)	getting ip address from the registered device info
+0c49f83	2016-04-12		Fixing an error displaying 'undefined' in the url when using ares-inspector
+9a835d9	2016-03-29	 (origin/version, version)	adding CHANGE-1.5.1.txt in changes directory

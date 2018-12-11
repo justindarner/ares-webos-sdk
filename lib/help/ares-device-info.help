@@ -1,0 +1,40 @@
+{
+    "display" : ["name", "synopsis", "options", "extraoption", "description", "examples"],
+    "notab":["examples"],
+    "notitle" : ["extraoption"],
+    "name" : "ares-device-info - print device's information",
+    "synopsis" : {
+        "default" : [
+            "ares-device-info [OPTION...]"
+        ]
+    },
+    "description" : {
+        "default": [
+            "This command prints device's valid system information."
+        ]
+    },
+    "options" : {
+        "cmdOpt":"option",
+        "default" : ["device", "device-list", "help", "version", "verbose"],
+        "device" : "-d, --device <DEVICE> @TAB@ Specify DEVICE to use",
+        "device-list" : "-D, --device-list @TAB@ List the available DEVICEs",
+        "help" : "-h, --help @TAB@ Display this help",
+        "version" : "-V, --version @TAB@ Display version info",
+        "verbose" : "-v @TAB@ Display this verbose log"
+    },
+    "extraoption" : {
+        "cmdOpt":"hidden",
+        "default" : {
+            "cmdOpt":"option",
+            "default" : ["level"],
+            "level" : "--level <LEVEL> @TAB@ Set a log LEVEL of 'silly', 'verbose', 'info', 'http', 'warn', 'error'"
+        }
+    },
+    "examples" : {
+        "default" : [
+            "",
+            "# Print DEVICE's information",
+            "ares-device-info -d DEVICE"
+        ]
+    }
+}

@@ -1,0 +1,144 @@
+e4eae7d	2015-01-26		Bump CLI version to 1.1.0
+acea9c1	2015-01-22		CHNSDK-4036: Bumping enyo to 2.5.4-pre.4
+f26fad7	2015-01-21		Adding error messages for sftp transmittion failure and installation failure
+8efa0da	2015-01-20		CHNSDK-3841: Fix a bug: applying text substitutions only for text files, not binaries - for favicon.icon - fix regexp 
+ac59b0d	2015-01-16		Fixed a bug applying value to variable
+2c79f5d	2015-01-16		Specifying a proper Installed-Size in ipk control file
+5dc9006	2015-01-16		CHNSDK-4005: Aborts ares-generate process when shelljs cause error like cp/rm
+a783bd9	2015-01-14		Checking md5 of ipk file after transmitting it into the device.
+6bc2d5b	2015-01-13		Adding file extenstions to substitute.
+dc2653a	2015-01-13		Fix a bug: applying text substitutions only for text files, not binaries
+1c2db41	2015-01-09		Changed template store path in cli data directory
+5b3d741	2015-01-09		Applying a different value to enyoVersion field in appinfo.json by default.
+8685318	2015-01-09		Fixed a bug to load version.js from moonstone library
+fee101a	2015-01-08		Added empty directory under templates
+cb20663	2015-01-08		Workaround to change template list
+6492f77	2015-01-07		ENYO-741: Bumping Enyo to 2.5.4-pre.2
+337bc1e	2015-01-06	 (tag: jenkins-enyo-package-ares-sdk-xplat-1602, tag: jenkins-enyo-package-ares-sdk-xplat-1599)	Adding resolution-independence support
+e829761	2014-12-22		ENYO-4123: ares-package should refer to all package.properties files in app and service directories
+268fc6a	2014-12-18		ENYO-4122: ares-package should exclude .DS_Store from a package
+8fe11b3	2014-12-17		CHNSDK-3572: CLI break off a parent-child relation from the browser process launched by CLI
+90fb16c	2014-12-17		CLI process can be terminated when it gets an exit keyword from process.stdin
+464571d	2014-12-17		CHNSDK-3628: Fixed a bug deleting whole files in the destination path when ares-package runs with --rom option
+93eba04	2014-12-16		ENYO-4120: CLI should clear ssh connections when it exits
+8abc974	2014-12-09		[CHNSDK-3604] Debug Process Issue (Port forwaring Issue)
+ad91a84	2014-12-08		Fixed lunching arguments when bundle browser is available
+a207d7b	2014-12-04		ENYO-4115: Return a proper exit code when CLI exit-ing.
+1398461	2014-12-01		ENYO-4114: Packaging Issue - opkg does not support posix tar header fully.
+37931f0	2014-11-27		ENYO-4113: Fixed wrong propagation in async
+c8817e4	2014-11-25		ENYO-4111: Fixed the executable file name of bundled browser in TV SDK
+008ba3b	2014-11-24		Timing issue launching node-inspector for debugging webOS service
+df81063	2014-11-24		ENYO-4109: Hidden option to specify host-pc's port for remote web/node inspector
+52a5922	2014-11-20		ENYO-4108: bump ares-generator which use extract-zip instead of adm-zip
+8244e8d	2014-11-20		ENYO-4104-Fix: Replace back slash to slash in JSON string before parsing it
+34155f6	2014-11-17		added remove function to cli-appdata.js
+b841f2e	2014-11-17		ENYO-4107: ares-generate initalize option should copy bootplates to CLI data directory again
+49a2480	2014-11-17		ENYO-4106: Use 2.5 as a default value for enyoVersion field in appinfo.json
+63ee2f4	2014-11-14		indent
+1cbd2e8	2014-11-14		added Success message
+06b06f7	2014-11-14		added --open option to ares-launch for openning the web inspector url with a browser as -i option just display the url for remote web inspecting
+1d3a8d7	2014-11-14		changed variable name
+8cfbaa3	2014-11-14		removed unnecessary code
+4f8812e	2014-11-14		added a variable to set a default template which has version for specifying version info in appinfo.json
+96da4d9	2014-11-14		indent
+b328794	2014-11-13		indent
+888c606	2014-11-12		ENYO-4104: ares-generate should make copies of bootplate template in the certain directory before generating symbolic links for app. Changes - Store bootplate-moonstone in the APPDATA directory before making symlinks for app generation - scan version.js in the bootplate templates to display version for bootplate templates - added option '--initialize' to make copies of bootplate templates in the cli app data directory.
+33bef9b	2014-11-13		ENYO-4105: port-forwarding server should allow the remote access
+4bc8756	2014-11-13		ENYO-4103: add --passphrase option to ares-novacom as hidden option.
+d312818	2014-11-13		ENYO-4102: ares-inspector should not open browser by default
+9706ec6	2014-11-11		If causing error while parsing version.js, just use the hard-coded version as the enyo version in the appinfo.json
+a72ee74	2014-11-11		Removed hard-coded the default enyo verion in ares-generate.js
+80202bf	2014-11-10		ENYO-4101: display templates list with version info referring to the version.js file
+6a33244	2014-11-07		indent
+4fdee5f	2014-11-07		bump bootplate-moonstone to 2.5 in templates
+93167b1	2014-11-07		ENYO-4101: Use the latest 2.5.x bootplate-moonstone template in ares-webos-sdk
+e377be2	2014-11-07		change file format to unix
+a5dc92e	2014-11-07		ENYO-4100: package.properties can contains the directories' permission
+71ee4c8	2014-11-06		ENYO-4099: handling umask in order to keep directories permission in ipk
+03c12d1	2014-11-05		Fixed a defect regarding to the assets in appinfo.json
+ad07934	2014-11-04		Handling the case of files which symbolic link indicates are missing.
+903b9e2	2014-11-04		ENYO-4093-Fix: Defect - the files specified in assets field was not contained in ipk file properly.
+bf15a02	2014-11-03		Changed function caller location after function definition.
+c91a6a2	2014-10-31		bump shelljs to 0.3.0 which is able to keep file mode in linux/mac
+3853027	2014-10-30		bump ares-generator to ENYO-4091 branch
+0ae6706	2014-10-29		bump ares-generator to ENYO-4091 branch
+6efe446	2014-10-27		The symbolic link handling in ares-package
+2df6062	2014-10-25		Changed some log to use log.verbose() instead of console.log()
+cc7912c	2014-10-22		added a comment regarding to the condition checking the minified enyo
+ad91014	2014-10-22		ENYO-4090-Fix: changed the condition to search enyo path.
+d5ac92b	2014-10-22		ENYO-4090-Fix: if enyo framework in app directory is already minified, enyo minification should be skipped.
+649caf3	2014-10-22		bump ares-generator which fixed travis-ci warning
+f8aa1f5	2014-10-21		changed template id in ide-plugin.json
+9738827	2014-10-21		Improve app generating speed
+72dd6a0	2014-10-21		path.relative function get two parameters as an absolut path
+7db98d2	2014-10-21		CHNSDK-3435: fixed a bug '-e' excluding option
+4926f93	2014-10-21		changed condition to check source root directory
+07776cd	2014-10-21		Fixed a bug to set 'deploy-srcroot' and 'deploy-lib' path
+bd5cae8	2014-10-21		changed calling order about copyApp and copyAssets
+3542cb7	2014-10-20		If lib option for deploy.js is specified, mappfrom option also should be started with leading that lib path
+335b974	2014-10-20		workaround due to the current deploy.js implementation.
+23b7c4f	2014-10-20		hide -de, -dl, -ds option to avoid confusing user
+393f203	2014-10-20		Fixed typo
+79af8ab	2014-10-20		add '--deploy-enyo, -de' to set path to enyo directory
+3df413b	2014-10-20		ENYO-4090: use CLI's built-in deploy script to minify enyo app
+26def06	2014-10-20		Fix a bug to check an application directory
+797c911	2014-10-17		indent
+4182393	2014-10-17		Directory name can contain comma(.)
+37744fe	2014-10-17		help
+b398292	2014-10-17		ignore ls-control output log
+a8b2ea7	2014-10-17		ares-install '-op, --opkg-param' option can be used with '-o, --opkg'
+230b865	2014-10-17		fixed typo
+71d0ace	2014-10-16		print out opkg-stdout
+785de7f	2014-10-16		add '-o, --opkg' option to ares-install to install/remove a package by opkg command instead of appinstalld ls2 api
+1090285	2014-10-16		if pkgname is not specified with -f option, package name should be 'unkwon'
+aab5dfd	2014-10-16		[CHNSDK-3006] Input Application name Accepting Special Character - add the check routine for the application directory name
+6ce4e4f	2014-10-16		indent help
+34d2765	2014-10-16		added '-pn, --pkgname' option to set a package name in .ipk
+dda18bd	2014-10-15		added '-f, --force' to ares-package as a hidden option to make serivce-only to ipk file
+3bb6c61	2014-10-15		applied some env variables before launching gdbserver on the device
+e111bf6	2014-10-13		Fixed a bug to check deploy.js in packager.js
+8ded6d4	2014-10-10		ENYO-4086:deploy script path should be file path
+7247ec0	2014-10-09		surround app path with double quotes for using rsync function call to get rid of rsync npm module bug.
+16434d7	2014-10-08		ENYO-4084: ares-install should check ipk file existence before installation.
+6f429f2	2014-10-08		ENYO-4083: fix error to show a proper error message for ares-install -r
+d4de662	2014-10-07		ENYO-4082: removed copying step to package directory in ipk
+a99ce94	2014-10-01		ENYO-4081: fixed error code to get browser path in ares-server
+ebdc6b6	2014-10-01		ENYO-4080-Fix: Fixed wrong source code in bootplate-web template
+42dfe4d	2014-10-01		contain bootplate-web plain files instead of zipped one
+089a6aa	2014-10-01		added webOS.js file into bootplate-web template
+b449a96	2014-10-01		removed redundant code
+6737386	2014-10-01		improved error messages in ares-inspect
+45e5319	2014-09-30		added example
+64bfd0e	2014-09-30		ENYO-4078: gdb do not have to use the forwarded port to connect to the gdbserver due to the performance issue
+c1ffc28	2014-09-04		ENYO-4073: remove an empty line in installed apps / running apps results
+a5bca32	2014-09-03		fixed wrong variable name
+48273dd	2014-09-02		removed unused code
+40d0db9	2014-09-02		update help for ares-generate
+9f5ea09	2014-09-02		Although current service type is only 'webosService' but more service type can be added later for ares-generate command
+7f2bfa0	2014-09-02		fixed a wrong code accessing javascript object's member
+ec62e20	2014-09-02		possible to omit '-a' option from ares-inspect
+09c41f6	2014-09-02		ares-gdbserver can debug a native service
+edae637	2014-09-02		the port number in the device list display format should be string type
+bdfcd40	2014-09-02		ENYO-4069: add option '--servicename, -s' to ares-generate for setting service name
+ab061cc	2014-09-02		ENYO-4068: ares-package can get multiple service directories as parameters
+6de5d4c	2014-08-11		change the divice list display format
+19f6197	2014-08-08		fixed source to import a proper module in ares-server file
+d37e30d	2014-08-07		apply new way to flush stdio/stderr before exiting()
+fa33598	2014-08-07		ENYO-4064: apply new way to flush stdout/stderr when CLI exit()-ing
+c4602ac	2014-08-07		ENYO-4062: Bug fix for ares-setup-device --modify
+a8bed21	2014-08-05		bump version to 1.0.1
+99332da	2014-08-04		change file name 'frame.html' to 'ares.html'
+411a769	2014-08-04		change file name 'frame.html' to 'ares.html'
+97ab689	2014-07-29		indent
+188e212	2014-07-29		fixed an wrong condition to check if path is absolube or not.
+261cd15	2014-07-28		check localization directory in order to contain files specified in appinfo.json
+ec88119	2014-07-28		Removed comments for test.
+a187c8e	2014-07-28		Fixed wrong source code to get full file path.
+874920d	2014-07-28		Fixed an wrong variable name.
+e5c6f9d	2014-07-28		ANG-3148: must use absolute paths in appinfo.json
+087bfed	2014-07-17		close outStream when inStream is closed
+8cd6105	2014-07-16		Use sdk file/dir path environment variables  only when the files exists
+568fd21	2014-07-16		Indentify between refresh and close browser actions before terminating process
+b30fb0e	2014-07-15		changes comments
+8341116	2014-07-15		add body-parser npm module
+942c6b9	2014-07-10		Terminate CLI (ares-server, ares-inspect) process when browser ends

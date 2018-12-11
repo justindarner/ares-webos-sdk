@@ -1,0 +1,877 @@
+aaa507b	2014-06-18		Fix for batch script to remove double quotes from PATH Variable
+7a27106	2014-06-12		Temporary fix for interface with IDE
+d21e349	2014-06-12		close client socket if it is unnecessary
+2c5b08b	2014-06-12		Replaced sprintf with sprintf-js due to the license
+b529c39	2014-06-11		removed onyx from submodule
+b64c7df	2014-06-11		changed icon files for bootplate-web
+107a5a6	2014-06-11		discard onyx from submodule
+bc266e2	2014-06-11		removed duplicated functions to show a device list
+8890c9e	2014-06-11		Change Error Messages
+0729999	2014-06-10		Backward compatability: support --add "{'name':'xxx', 'host':'10.1.2.3'}"
+6f177bb	2014-06-09		bump version to 1.0.0
+547871f	2014-05-28		update npm modules, removed an unnecessary node module
+22f8591	2014-05-26		bump version to 0.2.9
+58984e4	2014-05-21		ENYO-4041: surround variables with double quotes in the shell script
+f09e145	2014-05-21		fixed ares-novacom help text about forward option
+adc6f9f	2014-05-21		fixed ares-novacom help text about forward option
+6affcbc	2014-05-21		ENYO-4020: Fixed help text regarding arguments can be used with sigle quote
+a57b9dc	2014-05-21		fixed a conflit on merging
+13805c9	2014-05-20		use version info as 2.3.0 instead of 2.3.0.rc.19
+37839cb	2014-05-20		ANG-6071: changed for ares-generate --list option
+3fc6367	2014-05-20		fixed error text
+ce853d3	2014-05-18		fixed a wrong dependencies mark in package.json
+8b68bce	2014-05-16		removed codes to make known arguments into one
+6421f25	2014-05-16		updated help for ares-launch ares-generate ares-setup-device to use double quote as arguments delimiter on Windows
+df81fe4	2014-05-15		ENYO-4020: reverted windows batchscript
+84efda4	2014-05-15		indent
+3da95ff	2014-05-15		removed code commented out
+e212a23	2014-05-15		ENYO-4030: normally directory has writable permission for owner
+b64841e	2014-05-15		added condition to prevent packing whole directories or files
+d2b4670	2014-05-15		ENYO-4025-fix: ares-package should contain files specified on assets field and should place them on the valid path according to the assets' value
+17f19c7	2014-05-15		ENYO-4031: check http status code when ares-novacom get the ssh private key from the device
+dac90b1	2014-05-15		makes directories be owner-writeable
+ad15fbc	2014-05-15		ENYO-4030: ares-package don't have to assign the writable permission to the directories on packaging.
+29b84fa	2014-05-11		Changed enyo app default icon size (80x80). and added largeIcon (130x130)
+8aa1476	2014-05-11		if imageForRecents filed exists in appinfo.json, it also should be packged
+cb3b22d	2014-05-11		if icon file name is not icon.pn or main web file is not index.html, deploy.js script of enyo does not copy it into deployable directory, so CLI should pack them regardless the file name
+61971cd	2014-05-10		ENYO-4020: single quote problem on windows
+6d4afbb	2014-05-09		Fix lib path error in "ares-package --rom".
+039f1f9	2014-05-09		bump version to 0.2.8
+3eab944	2014-05-09		applied temporary way to fix '--property' options bug on Windows due to the white space in a JSON form
+c58fefb	2014-05-09		ENYO-4025: If 'largeIcon, bgImage, splashBackground' are specified in appinfo.json, these files should be packed by default although there is no deploy.json or no assets fileds in appinfo.json
+9ee3855	2014-05-09		Fixed comments for functions
+f389da0	2014-05-09		Fixed comment for function
+2e5c323	2014-05-08		changed help text
+da8e5e6	2014-05-08		ENYO-4024: add ares-server to run a local web server with app directory
+51add64	2014-05-08		removed registerPrivate from service template
+577d0b2	2014-05-07		align position for bootplate-web template
+efb9d06	2014-05-07		removed 'webos3' and 'tv' from a default device list
+c3e7158	2014-05-07		removed bootplate-2.3.0 from default templates
+cff5a10	2014-04-30		ENYO-4023: use request instead of http.request(GET) to simplify the code to download the ssh key
+e76e696	2014-04-30		ENYO-4022: update Schema for appinfo.json
+9ccab10	2014-04-30		ENYO-4021:bump enyo for 2.3.0-rc.19 in ares-webos-sdk
+b8463b5	2014-04-29		ENYO-4019: added exit after printing out the error message
+f71db90	2014-04-28		ENYO-4018: removed shebang() line from JS files
+ee10550	2014-04-25		specify ssh2 version in package.json to install 0.2.22 and above
+b56098b	2014-04-25		ENYO-3985: Changes for ares-setup-device
+541209b	2014-04-25		fixed condition to save ssh password and privatekey name to device info
+675f698	2014-04-25		fixed a bug to set a default valud for a device info
+63aa5e1	2014-04-25		ENYO-3985-bugfix: changes for ares-setup-device
+72042e8	2014-04-25		ENYO-3985-bugfix: fixed a bug changing a device info as a default value
+23aafcc	2014-04-24		ENYO-3985-bugfix: fixed a bug changing a device info as a default value
+1373b2b	2014-04-23		bump bootplate-moonstone for 2.3.0-rc.19
+c9c274b	2014-04-23		bump bootplate-moonstone for 2.3.0-rc.19
+7564f06	2014-04-23		changed quote position for windows cmd script
+0ff8516	2014-04-22		added class property for classifying templates
+d10d76d	2014-04-21		ENYO-4015: removed ActivityPanel, AlwaysViewingPanels template from initial ide-plugin.json
+c976b9d	2014-04-18		indent
+7d06e2d	2014-04-18		ENYO-4014: fix a bug for ares-package if project contains symlinks
+54a996f	2014-04-18		ENYO-3966: bump ssh2 to 0.2.22 from 0.2.16 since it allows zero-length passwords
+05a5358	2014-04-18		if no schema for novacom-devices.json, just save data without checking validation
+fce133b	2014-04-18		if type specified with 'emulator', filled with a default device value for emulator
+97c05b3	2014-04-18		if type specified with 'emulator', filled with a default device value for emulator
+46b979b	2014-04-18		ENYO-3965: added NovacomDevices.schema for novacom-devices.json
+2e2aa32	2014-04-18		bump version to 0.2.7 from 0.2.6
+03f8d28	2014-04-17		bump version to 0.2.6 from 0.2.5
+e0eb661	2014-04-17		ENYO-4013: fixed a defect on ares-package
+47ca749	2014-04-17		ENYO-3973-fix:wrap PATH with Quote
+19fa3e4	2014-04-09		ENYO-3973: set temporary node path so that running node modules to spawn another child node process.
+6f44b8f	2014-04-09		ENYO-3967: ares-gdbserver should print out stdout of gdbserver
+5d096dc	2014-04-09		ANG-2314: In devmode, APPDIR is set /media/cryptofs/apps/usr/palm/applictions/ devmode jail, but to run native app with gdbserver, SAM is not concerned, this case there is not way to get  and it needs LD_LIBRARY_PATH should indicate /media/developer/apps/usr/palm/applications//lib
+440ce63	2014-04-08		ENYO-3965: changes of ares-setup-device command
+3340101	2014-04-03		ENYO-2717-refactor: removed unnecesary code
+9f57d7f	2014-04-03		ENYO-2717-bugfix: refactor gdbserver source
+e9a841b	2014-04-02		refactoring gdbserver.js (not completed)
+67b3d21	2014-04-01		ENYO-2931-fix: discard files with .ipk extension on generating a package.
+ad961fc	2014-03-31		ENYO-2931-Fix: exlude .ipk files from app for generating new .ipk
+ab1f0d4	2014-03-27		ENYO-3880: change APP ID param as optional
+474edea	2014-03-27		ENYO-3962: fixed indent
+07df4b0	2014-03-27		ENYO-3962: --reset option to initialize a device list
+4ee1466	2014-03-27		change variable name
+13be81e	2014-03-27		add newline at end of file
+10ff483	2014-03-27		ENYO-3961: change temp path for installing an app
+9932d20	2014-03-18		add a 'success' printout message meaning a proper woring
+3f14232	2014-03-18		ENYO-3498-bugfix: use a basename of app directory path as a default app name
+0e237e3	2014-03-17		ENYO-3162: revert fulllist options to use process.stdout.write instead of fs.writeSync
+a410e88	2014-03-17		ENYO-3162: flush stdout before exiting
+07a3949	2014-03-14		comment out '--level' option
+8364a98	2014-03-14		ENYO-3880: fixed typo
+6c33a17	2014-03-14		ENYO-3880: show error if log file does not exist
+fc7b9c5	2014-03-14		ENYO-3880: added ares-log to display native application logs from a webOS device
+1d2f994	2014-03-11		ENYO-3873: use -n option with netstat to prevent hangup
+e97924d	2014-03-09		ENYO-3869: bump ares-webos-sdk for 2.3.5
+c678bfa	2014-03-09		ENYO-3869: use 'developer' instead of 'root' for webos emulator
+0789f06	2014-03-05		changed a printout on installing app
+440c484	2014-03-05		fixed a bug for previous webos3 sdk
+0439162	2014-03-05		GF-52340-modify: remove conditions checking root user for developer user
+1b25011	2014-03-05		ENYO-3819: avoid to attampt to read a directory as a file
+a7a7885	2014-02-27		changed version form
+d553363	2014-02-27		ENYO-3855: bump bootplate-moonstone for 2.3.0-rc.9
+2d4cd80	2014-02-18		use service.id property for packaging
+7d348fb	2014-02-17		changed condition to check if service name is subdomain of app id
+7d1a267	2014-02-17		check if service name is subdomain of app id
+b702ce3	2014-02-17		fixed so that packageinfo.json can have services properties
+2be92ad	2014-02-17		ENYO-3605: changes for packager
+0a71752	2014-02-13		ENYO-3498: use @SERVICE-NAME@ to set a substitions for webos-service template
+3b19623	2014-02-13		ENYO-3498: can substitute genConfig contents before to instantiate ares-generator
+cc96255	2014-02-11		ENYO-3564: fix a wrong code to indicate builtin node path
+cf46507	2014-02-11		ENYO-3819: added condition checking if build directory exists before reading build dir
+98868ba	2014-02-11		ENYO-3564: fix a wrong code to indicate builtin node path
+1a1e082	2014-02-10		ENYO-2735: changes of ares-novacom regarding --getkey options
+d3e7cff	2014-02-10		fixed a bug related to properties options
+a7f0c7c	2014-02-10		bump version for 0.2.4
+600ae1f	2014-02-07		indent
+0d63c2c	2014-02-07		ENYO-3819: prevent an abnormal case that app.js has back slash as a path separator
+ae85ca9	2014-02-07		ENYO-3819: replacing path seperator of onDeviceSource fields
+915449b	2014-02-04		ENYO-3564: changed a pre-built node binary path
+f1f6e03	2014-02-03		ENYO-3725-bugfix: workaround to avoid windows parameter problem
+b2df9fa	2014-02-03		ENYO-2717: removed dispensable source codes
+fbb0e09	2014-01-28		ENYO-3669: bump bootplate-moonstone, onyx for 2.3.0-rc.5
+f838509	2014-01-28		ENYO-3732: bump submodules for ares-generator 0.3.4
+8338287	2014-01-27		indentation
+b5d40a5	2014-01-27		removed dispensable codes
+c6c38df	2014-01-27		indentation
+320d22b	2014-01-27		indentation
+67c881b	2014-01-27		added jsonschema in .gitignore
+490e843	2014-01-27		ENYO-3767: validate an appinfo.json on making a package
+6cb169b	2014-01-16		fixed help
+2d6751c	2014-01-16		ENYO-3725: support nested JSON objects
+b21af85	2014-01-15		ENYO-3725: fixed help
+e30e8be	2014-01-15		ENYO-3725: support JSON type parameters for --params option
+0afd1e6	2014-01-15		ENYO-3725: add new option to ares-launch to forward launching parameters
+0f65884	2014-01-13		ENYO-3718: fix bug to include the hidden files into a package
+964c5c5	2014-01-13		ENYO-3718: fix bug to include the hidden files into a package
+c195ca3	2014-01-09		ENYO-3702: set a default device info when adding new device via ares-setup-device
+ade36bc	2014-01-09		ENYO-3702: set a default device info when --getkey runs
+1b06f5c	2014-01-09		ENYO-3701: fix bug to transfer data via SSH
+5fa0f2c	2014-01-08		update help
+651cf04	2014-01-08		appended line seperator to make readable for --listfull option
+2567b65	2014-01-08		fixed help
+7281bf6	2014-01-08		ENYO-3672: bump version of ares-generator
+17ec7cf	2014-01-08		ENYO-3675: changes for ares-install
+7c3b0d7	2014-01-07		fixed help for command
+5b17086	2014-01-07		fixed help for command
+6ef746c	2014-01-07		ENYO-3498: changes of ares-generate
+1bafc49	2014-01-07		ENYO-3672: bump ares-generator to use substitution.regexp instead of substitution.var
+be25306	2014-01-06		ENYO-3674: change default template ID
+7edfccf	2014-01-03		Change .gitmodule paths to be relative, so checkouts work over ssh: AND https:
+fac8e87	2013-12-31		ENYO-3672: bump ares-generator submodule to use substitu.vars
+91fb97d	2013-12-31		ENYO-3672: changes for ares-generate
+7e576b2	2013-12-30		indent
+7111fe9	2013-12-30		ENYO-2817: ignore path specified in package.properties
+6f75f9a	2013-12-30		ENYO-2817: exclude package.properties from .ipk
+01abb4e	2013-12-30		ENYO-2817: replace back slash(\) to slash(/) in package.properties
+606e900	2013-12-30		indent
+3d0a1d1	2013-12-30		ENYO-2817: support file list specified with comman(,) in package.properties
+7dfc91c	2013-12-24		ENYO-3671: rewrite index.html to exlude build/enyo.js & enyo.css for --no-minify option in packaging
+bbdfce5	2013-12-23		ENYO-3671: rewrite html not to refer to build/enyo.js for --no-minify option
+067db31	2013-12-23		fixed typo
+9279c9d	2013-12-23		ENYO-3669: bump submodules for 2.3.0-rc4
+60d9d65	2013-12-23		ENYO-3668: clean up command line option
+57b95d3	2013-12-23		ENYO-3668: clean up command line option
+fe033ca	2013-12-20		don't describe in help that 'library' type is availble
+3363995	2013-12-20		bootplate-2.3.0 templates has moonstone spolight layout onyx
+2520236	2013-12-20		bootplate-2.3.0 templates has moonstone spolight layout
+e4ccaec	2013-12-20		ENYO-3635: change template list for ares-generate
+5beaa9d	2013-12-20		ENYO-3635: change template list for ares-generate
+6c91c8c	2013-12-19		ENYO-3649: discard containerJS and containerCSS field from appinfo.json when packager run with --no-minify
+0f3ff79	2013-12-18		ENYO-3635: bump submodules for bootplate-moonstone 2.3.0-rc.3
+377c1d9	2013-12-16		ENYO-3407-bugfix: fix minor bug regarding calling bind function
+dbda604	2013-12-16		ENYO-3612: update template description
+c2baabd	2013-12-16		ENYO-2825: fix bug to set service ID for launching node-inspector
+2d9abf0	2013-12-12		ENYO-3246: fixed data lost problem in forward()
+afca21a	2013-12-10		ENYO-3612: bump bootplate-moonstone for 2.3.0-rc2
+f4ec97b	2013-12-09		GF-41151-fallback: added fallback for emulator
+c135429	2013-12-05		when getting ssh private key from dev mode app, just change stream type as sftp from stream
+ec9451c	2013-12-05		removed unnecessary code
+0b08d58	2013-12-05		GF-41151: root user can get environment vars from /etc/jail_native_devmode.conf
+4c7418e	2013-12-03		fixed typo
+ecc52be	2013-12-03		ENYO-3578: discard 'deploy' directory for no-minify packaging
+d52c5bc	2013-12-03		ENYO-3578: use setImmediate
+e70b79f	2013-12-03		ENYO-3578: indentation
+8255654	2013-12-03		GF-52340: use 'info' instead of 'ping' as it is available in all webos-service based services
+22c2810	2013-12-03		GF-52340: give write permission for directory elements of tar archive file
+0448b22	2013-12-02		ENYO-3578: updated help for ares-package
+c8d05e0	2013-12-02		ENYO-3578: fixed indentation
+19885a2	2013-12-02		ENYO-3578: improved --exclude options to support PATTERN
+c4c531d	2013-12-02		GF-52340: support prisoner user dubugging service via debugger-port file instead of running run-js-service
+250ac46	2013-12-02		GF-52340: use 'quit' luna api instaed of 'kill command' to terminate the running service
+c7bcfd2	2013-11-22		ENYO-2717: added code to terminate ares-gdbserver when gdbserver is terminated from device
+5c18a51	2013-11-20		ENYO-2817: removed redundant codes
+1424987	2013-11-20		ENYO-2817: changed path to find package.properties file
+01bd099	2013-11-20		Enyo-2817: fixed indentation
+02cbc51	2013-11-20		Enyo-2817: update added new line of EOF
+9640581	2013-11-20		Enyo-2817: update npm-shrinkwrap
+843d76e	2013-11-19		ENYO-3550: replace bootplate-2.3.0 with pre.12 from pre.9
+dc4ef00	2013-11-18		ENYO-3401: changed Luna APIs supported by luna-send-pub
+8296c89	2013-11-18		ENYO-2734: allow (null string) for --privatekey option's value
+6497ad1	2013-11-18		ENYO-2734: hide a confused warning message for user
+38c510a	2013-11-18		ENYO-2734: allow (null string) for --password, --passphrase option's value
+45094e4	2013-11-15		ENYO-2734: fixed indentation in help description
+1301c9c	2013-11-15		ENYO-2734: added --privatekey, --passphrase, --password option for ares-setup-device
+ffe316b	2013-11-15		ENYO-2734: removed never reached code
+3bf8270	2013-11-15		ENYO-2734: added --privatekey, --passphrase, --password option for ares-setup-device
+0ced106	2013-11-15		ENYO-3474: removed a default ssh key file name from device list
+cc1b5c4	2013-11-15		ENYO-3474: changed warning message showing condition for ssh key registration
+722a14c	2013-11-15		ENYO-3474: added --listfull for ares-setup-device command
+3dffdbd	2013-11-13		ENYO-3209: align list() result of ares-generate
+4e317da	2013-11-13		ENYO-3474: modified typo of help for CLI
+7dcef76	2013-11-13		ENYO-3401: changed luna api to remove app
+f46e56c	2013-11-13		ENYO-3474: modified help for CLI
+4cc6ba9	2013-11-13		ENYO-3474: modified help for CLI
+1a84170	2013-11-13		ENYO-3474: modified help for CLI
+665e278	2013-11-13		ENYO-3474: modified help for CLI
+8450594	2013-11-13		ENYO-3474: modified help for CLI
+dd4b088	2013-11-13		ENYO-3209: added bootplate-moonstone as a git submodule
+2b4c28a	2013-11-12		ENYO-3209: Git-ignore busboy & base64-streams
+cc35d5e	2013-11-11		ENYO-3209: bootplate-2.2.0 & 2.1.1 are recovered from the list
+1286c3d	2013-11-08		ENYO-3474: CLI help description has too wide lines to read
+f22e123	2013-11-08		ENYO-3474: CLI help description has too wide lines to read
+8ccac6d	2013-11-08		Please refer to the code & image
+81c0236	2013-11-07		ENYO-3209: remove webos-port sample app from top-level ares
+34f188e	2013-11-06		ENYO-3251 : providing hosted app mode - add directly debug options.
+84f3aa5	2013-11-06		Arrange help strings.  - Comparing with 'tar --help' and follows.  - Just change the indentation follows the request of Sunggye Lee.
+c6d60a5	2013-11-06		Revert the commit before.
+590b0fb	2013-11-05		ENYO-3523 : invisible apps in installed app list - check app's visible
+35ab039	2013-11-05		Arrange help strings.  - Comparing with 'tar --help' and follows.
+c1c1d81	2013-11-01		ENYO-3251: applied ENYO-3407 changes to avoid a conflict for merging with a master
+443d326	2013-11-01		ENYO-3487: check template name is valid or not before creating a directory for app
+23dd03d	2013-11-01		ENYO-3401: use luna-send-pub instead of luna-send for starfish
+f26518a	2013-11-01		ENYO-2149: fix bug regarding path separate problem on Windows PC
+7456e9d	2013-10-31		ENYO-3487: shows error message when user specify a wrong template name
+894201d	2013-10-31		ENYO-3407: re-indent to match Enyo coding standards
+cf270cd	2013-10-31		ENYO-3318: shows help when cli tools are called with no params
+587c2a0	2013-10-31		ENYO-3407: set a log level option for a bdWebos.js
+6255e0b	2013-10-31		updated npm-shrinkwrap.json (recover a pervious npm-shrinkwrap to use ssh@0.2.12)
+83912b2	2013-10-30		ENYO-3407: use BdBase & HttpError from Ares rather than duplicate code
+04119b2	2013-10-30		ENYO-3485: bump ares-generator
+b6c8a42	2013-10-30		ENYO-3485: bug fix regarding temp node module to make directory under temp path (defect on ubuntu)
+a06f5e7	2013-10-30		fixed indent
+f885496	2013-10-30		changed function name to have a proper meaning
+7dc1442	2013-10-30		ENYO-3407: git mv main.js bdWebos.js
+e37cfc0	2013-10-30		ENYO-3407: use busboy to parse multipart data instead of express.bodyParser (relative to ENYO-3061)
+5e4f0e4	2013-10-28		fixed help for cli
+eae226b	2013-10-28		ENYO-3251 : fixed some unused code
+988b0f8	2013-10-28		ENYO-2717: fix bug on windows regarding path separator
+6d71eff	2013-10-25		ENYO-3318: provide '--overwrite' option for ares-generate
+9fa01a7	2013-10-25		ENYO-3318: when generating app, if destination directory is empty, ares-generate will generate app into directory
+3479017	2013-10-25		ENYO-3318: provide +x permission into dir for .ipk generated on Windows
+e25886f	2013-10-25		ENYO-3318: fixed '--property' options bug on Windows due to the white space in a JSON form
+ce4b6d3	2013-10-24		ENYO-2717: fixed env variable to launch a native app with gdbserver
+bcfab16	2013-10-24		ENYO-3251 : ip addresss bug fixed
+27fb960	2013-10-23		ENYO-3251 : Support hosted app mode in CLI
+b3653d2	2013-10-23		ENYO-3318: fixed ares-launch bug to launch app
+0f95f6a	2013-10-22		ENYO-3318: hide unimplmeneted options and fixed help
+e1a1dc2	2013-10-22		ENYO-3318: improved help for ares-gdbserver
+ff78eb1	2013-10-22		ENYO-3251 : Providing hosted app style debugging feature for usability on TV - Add ares hosted application ipk file - Add hosted application sequence
+ce10239	2013-10-22		ENYO-3318: fixed help
+107a9d8	2013-10-22		ENYO-3318: improved help for ares-setup-device and ares-novacom
+6ce638a	2013-10-22		ENYO-2734: updated package.json
+68cb216	2013-10-22		ENYO-2734: fixed a error message.
+e9d4176	2013-10-22		ENYO-2734: provide '--add' option with '--name', '--type', '--description', '--host', '--port', '--username', '--files' ENYO-2734: added code changing default devide info for emulator , starfish
+52df5f3	2013-10-22		ENYO-2734: added new command named ares-setup-device controlling device info from ares-novacom
+9a67cbd	2013-10-22		ENYO-2734: removed options controlling device info from ares-novacom
+5d916c0	2013-10-22		ENYO-2734: removed a temporary code
+6ecfffb	2013-10-22		ENYO-2734: fixed function modifying target device info
+c9fbd11	2013-10-22		ENYO-3318: changed ares-novacom paramenters to use ASCII hyphen-minus
+3701aac	2013-10-22		ENYO-3318: changed log.warn to log.verbose regarding private key absence
+2e34c66	2013-10-22		ENYO-3318: fixed help
+92ba894	2013-10-22		ENYO-3318: fixed help
+3f69c4d	2013-10-22		ENYO-3318: fixed help for ares-install, ares-launch
+8507569	2013-10-22		ENYO-3318: allow more flexibility regarding to the '--property' option
+757a043	2013-10-22		ENYO-3318: fixed help for ares-package.js
+56847d4	2013-10-22		ENYO-3318: re-align a part of source code
+bbaf209	2013-10-22		ENYO-3318: fixed help for ares-launch.js
+7a5a710	2013-10-22		ENYO-3318: fixed help for ares-install.js
+1765621	2013-10-21		ENYO-3318: fixed help for ares-generate.js
+a07ac13	2013-10-21		ENYO-3401: changed a hard wired code regarding luna-send
+8fdf112	2013-10-21		help message change
+a00f9b6	2013-10-21		add & remove improvement
+82e98c8	2013-10-17		(incomplete) ENYO-3318: fixed help for ares-generate.js
+0824250	2013-10-17		(incomplete) ENYO-3318: refactoring ares-generate.js
+1eadd2f	2013-10-17		ENYO-3370: changed file mode 0600 for a saved private ssh key
+bacc746	2013-10-17		ENYO-3370: changed file mode 0600 for a saved private ssh key
+87f69ef	2013-10-17		ENYO-3370: changed the code flow for copying builtin key into /Users/junilkim/.ssh/
+e6a8149	2013-10-17		ENYO-3370: changed the code flow for copying builtin key into /Users/junilkim/.ssh/
+f2261c8	2013-10-17		ENYO-3370: located builtin private ssh key for emulator into /Users/junilkim/.ssh
+8cda2c4	2013-10-16		changed parameter order of modifyDeviceFile() function
+9c337b7	2013-10-16		ENYO-2734: support modifying target device configuration on CLI
+d5379df	2013-10-14		fixed indent
+d32d177	2013-10-14		ENYO-2999: catch Zalgo using setImmediate
+1b4b2be	2013-10-14		ENYO-3315: ares-package can get service directory & package directory with app directory like a previous palm-package
+f47e410	2013-10-14		ENYO-2981: indent, fixed a minor bug to set target device name when adding / removing
+3dedf8c	2013-10-14		ENYO-2981: Re-fixed Target configuration order is floating
+05d3939	2013-10-11		ENYO-2983-bugfix: fixed bug to launch bundled chromium in Windows
+e7ef4e9	2013-10-10		changed delete function
+fc3f08a	2013-10-10		add username
+61de7ef	2013-10-10		ENYO-3298 : bug fixed
+ad96c38	2013-10-10		ENYO-3298: delete unused code
+aa5c830	2013-10-10		revert the WebosBuild.js file
+d037c81	2013-10-10		ENYO-3298 : Target Configuration UI Error in Ares with enyo pilot 9 - remove MVC model
+fa8e7fc	2013-10-08		ENYO-3247:added a '--running' option to 'ares-launch' to get a running app list
+78fccc2	2013-10-08		ENYO-3222: replace backslash to slash for Windows
+1f8bd9c	2013-10-08		ENYO-3222: replace single backslash with double backslash letter for Windows
+8a2b60b	2013-10-07		work around for launching inspector on new tab of default browser although it launched by bundled browser
+7045c0d	2013-10-07		adapted the password athentication instead of public key for tv (work around before using dev mode app
+1a926fd	2013-10-07		adapted the password athentication instead of public key for tv (work around before using dev mode app
+85fc0b2	2013-10-07		adapted the password athentication instead of public key for tv (work around before using dev mode app
+7bebf7c	2013-10-07		ENYO-2893: if no bundledBrowser option, then clear ARES_BUNDLE_BROWSER env variable
+e65e47d	2013-10-07		ENYO-2893: set env variable for bundle browser path
+6dd3e10	2013-10-07		ENYO-3248 : Run web inspector without port forwarding
+3a94ddd	2013-10-07		ENYO-3248 : Run web inspector without port forwarding
+4b8f9da	2013-10-05		ENYO-2893 : modify the mis typo
+b7caf92	2013-10-05		ENYO-2893 : delete unnecessary data
+83c1cdc	2013-10-05		ENYO-2893 : web inspector should be launched by bundled chroimum - add new condition (chromium)
+3fbbbe5	2013-10-05		ENYO-3248 : run web inspector without port forwarding - add condition (noPortForwading)
+5530e97	2013-10-04		fixed comparision code using toString()
+b6e60e0	2013-10-04		ENYO-3232: update ide.json - use bootplate-2.3.0-pre.9.zip
+be1ea61	2013-10-04		ENYO-3026-bugfix:ares-webos-sdk contains emulator key by default
+8bbba00	2013-10-04		ENYO-3162: flush stdout/stderr for cli
+5d267e7	2013-10-02		ENYO-3190: removed an unused variable
+615d280	2013-10-02		ENYO-3190: fixed indent
+1321cfa	2013-10-02		ENYO-3190: changed to use novacom-devices.json under User Home
+842d9c8	2013-10-01		ENYO-2935: more review-comments (enable a default configuration).
+794396b	2013-10-01		ENYO-2935: more review-comments (enable a default configuration).
+7522bf7	2013-10-01		ENYO-2935:removed hard-wired default template name.
+0d61498	2013-10-01		ENYO-2998:updated ide-plugin.json to have bootplate-2.3.0-pre.5 instead of bootplate-nightly
+fb327ce	2013-10-01		ENYO-2935: removed code adding webos-app-config by default
+06284ae	2013-10-01		ENYO-2935: ares-webos-sdk demand noded >= 0.10 from now on
+82cb6a0	2013-10-01		ENYO-2935: ares-generator demand node >= 0.10 from now on
+5dcf9b0	2013-09-30		ENYO-2999: catch zalgo using setImmediate() instead of next()
+158074b	2013-09-27		ENYO-2395, ENYO-3198: replace node-zip by adm-zip (performance)
+e911917	2013-09-27		ENYO-2395, ENYO-3198: add `--proxy-url|-P`
+0a02bb1	2013-09-27		ENYO-2999, ENYO-2935: catch Zalgo & do not exit the process immediatelly
+46eeadc	2013-09-27		ENYO-2935: add example on how to use a folder as a template source
+d015d68	2013-09-27		ENYO-2935: use (configurable) dependencies instead of (hard-wired) essentialTemplates
+569171f	2013-09-27		ENYO-2935: ares-generate cli can convert plugindir path from @PLUGINDIR@
+c4fdcf6	2013-09-26		ENYO-3116 : Developer can be save the target configuratin Data when develoepr has a permission of novacom-devices.json
+9921184	2013-09-26		fixed typo
+9bd57b3	2013-09-26		allow updating appinfo.json only when webos service tab is enabled
+1de9e34	2013-09-26		ENYO-2927 : change text align (right -> left)
+c8ee3d7	2013-09-26		ENYO-2927 : modified pragma
+0d41a08	2013-09-26		bug fix for return value
+65e62be	2013-09-26		moved variable declaration location
+17063fa	2013-09-26		moved variable define locationed
+a9cb1ba	2013-09-25		ENYO-3161: commented out the code causing ENOTCONN when cli is executed from rcp & only windows & node 0.10.18
+03937b2	2013-09-25		ENYO-2927 : Support enyo centralization in the ARES & CLI - Add new UI for enyo centralization - When user check the library for centralization, appinfo.json is modified.
+7defec4	2013-09-25		ENYO-2935: adapt to updated `ares-generator` (+folders as sources)
+f553bb6	2013-09-25		ENYO-3026:improved error result of getDeviceBy function
+b89884b	2013-09-25		ENYO-3026:set emulator as a default target
+63fd105	2013-09-25		removed unused initial values for targe device
+f4fff7b	2013-09-25		removed comment
+1327073	2013-09-25		sync getDeviceBy func return the exract searched target or first searched target among the multiple list
+3a625f2	2013-09-25		ENYO-3170: set version of packageinfo.json via appinfo.json
+702ad60	2013-09-24		changed target names and default target
+e1f5e12	2013-09-24		support abstract target name
+92451c4	2013-09-23		fixed help for PROPERTY option
+2892626	2013-09-23		support PROPERTY option for a valid JSON form
+f6ba4ce	2013-09-23		removed an unused variable
+b9a2bba	2013-09-23		support arguments containing blanks
+ecd9b45	2013-09-23		ENYO-3149: fixed bug to set property of appinfo.json via the form like json objects
+e87f251	2013-09-21		ENYO-2922: revise the code along with style guide Enyo-DCO-1.1-Signed-off-by: sunggye shiftpwr@gmail.com
+19d54e4	2013-09-21		ENYO-3111:on Ares - properties..., the plugin should be able to add some action once developer click the "OK" button - change the function name
+a6156c2	2013-09-18		ENYO-2984: changed property name to files from upload
+18c5b29	2013-09-18		ENYO-2984: fixed formatting log message
+87fb5dd	2013-09-17		ENYO-2922:Some of ARES bootplates doesn't have appinfo.json file so it makes an error on installing
+f3e2d9e	2013-09-16		ENYO-3116 : - bugfix : target list save bug is fixed
+9cf1853	2013-09-16		fixed comments
+c777bf5	2013-09-16		ENYO-3116 : target configuration UI has un-saved data - add new action popup : save or not? - apply enyo pilot 8 (about bindings)
+37a4942	2013-09-15		added function comment
+5d5211a	2013-09-15		removed comments
+f1cc0f5	2013-09-15		fixed script regarding lauching ares-novacom
+04cae12	2013-09-15		ENYO-2984: support upload type sftp and put for app installation
+17f13b0	2013-09-15		ENYO-3112: update ares-generator to @f6e474d from @3492340
+d69b03b	2013-09-13		ENYO-2921: set inactivity time value causing server socket hang up
+5af5050	2013-09-12		removed hardcoded code
+fc3b2c9	2013-09-12		added +x ares-novacom.sh & ares-novacom.cmd
+7d7dd9f	2013-09-12		ENYO-3079: prevented duplicated essential templates
+5b3ffba	2013-09-12		ENYO-3079: fixed missing appinfo.json when creating app from cli
+c342555	2013-09-11		ENYO-2961 : Default target setting - modify the autobindings (do not support in enyo-pilot-6 & higher)
+7df6fe9	2013-09-10		fixed wrong comparision code
+44d3f88	2013-09-10		added semicolon
+f5bc0d0	2013-09-10		GF-9080: bug fixed of code flow in async.waterfall
+6fd79ba	2013-09-10		GF-9080: added private key for webospro emulator
+ff2e273	2013-09-10		removed unused params to call ssh.exec
+82f4b70	2013-09-10		fixed wrong typo in help
+af2eb1e	2013-09-09		ENYO-2947: improvement content of error popup regarding installing/launching/debugging
+ea6832c	2013-09-06		Delete ide-plugin.json.orig
+3d81146	2013-09-06		improved source to check appinfo file
+5449bca	2013-09-06		removed comment
+c5d4801	2013-09-06		added default value for target device as webospro-qemux86
+c845ee5	2013-09-06		ENYO-2915-fix: Fixed wrong merged source at ENYO-2915 (git-id: e8880df)
+d71f553	2013-09-06		ENYO-2984: use ssh2@0.2.11 and above
+28ebf38	2013-09-06		ENYO-2984: initial code using sftp to upload file
+6b47db7	2013-09-05		ENYO-2984: added initial code to use sftp to upload file
+5c1310a	2013-09-04		move the setDevice source into condition
+6a031b4	2013-09-04		updated ares-generater commit-id
+d1f1d44	2013-09-04		remerged
+d991e4c	2013-09-04		delete semver
+e8880df	2013-09-04		ENYO-2915:ARES web inspector debugging doesn't work properly sometimes with Emulator
+373591a	2013-09-03		ENYO-3011: prevent hangup though ares cannot find a default target device name
+09e99ad	2013-08-29		ENYO-29477: fixed typo
+2d65ba3	2013-08-23		ENYO-2961 : Default target is different with target selection UI. - add new sequence for setting the default target.
+b1934e9	2013-08-22		Change the default config data (enabled = true)
+86779b0	2013-08-22		ENYO-2947: fixed bug causing ARES terminated when there is ssh private key file is not exist.
+81ed4f2	2013-08-22		ENYO-2924 : When ARES create new project, it should provide a proper default bootplate - change the list of templates - change the selected service saving functions
+b5a7970	2013-08-22		ENYO-2946: fixed bug to support removing a installed app using --remove options of ares-install
+32723dd	2013-08-21		ENYO-2881: process.stderr cannot be closed
+ec155d3	2013-08-20		ENYO-2881: process.stderr cannot be closed
+7dea0e6	2013-08-20		ENYO-2881: updated ares-generator commit-id
+b4f8dca	2013-08-19		ENYO-2931: remove build, target dir when packaging with --no-minify
+55c08dd	2013-08-19		ENYO-2881: upated package.json to support npm 1.2.11 above
+b2cb61b	2013-08-19		ENYO-2881: removed semver from sub-npm.js
+a9a88a4	2013-08-19		ENYO-2063: templates are located using  only
+153c8f3	2013-08-19		ENYO-2881: updated npm dependency (ares-generator@0.2.3)
+555fbf2	2013-08-19		ENYO-2881: updated npm-shrinkwrap.json
+0cd193e	2013-08-19		ENYO-2881: removed semver git dependency to have only an npm dependency
+1a93adc	2013-08-14		ENYO-2186:Add ares-setup-device.js/sh/bat for adding/overwriting/removing debug targets
+5dc78ca	2013-08-12		ENYO-2735: provide prompt to get passphrase of SSH PRV KEY
+68357ad	2013-08-12		ENYO-2735: prompt for user input about passphase
+bfab578	2013-08-12		ENYO-2735 : AAAD, I can get SSH key from TV by installing DevMode App - Add new Button for getting key on Target Configuration UI - Add new functions for getting key from Target
+fc63a69	2013-08-12		applied Fix's comments
+1723da3	2013-08-12		ENYO-2186:Add ares-setup-device.js/sh/bat for adding/overwriting/removing debug targets
+a6ef449	2013-08-12		close running app before installation as running app cannot be installed again
+db131dd	2013-08-12		set 5 min timeout for a long time installation
+7c986f5	2013-08-12		ENYO-2780: use shelljs.cp instead of xcopy at windows platform
+5bf5d73	2013-08-12		Change the target infomation
+6d55430	2013-08-12		ENYO-2543 : Appinfo.json is not modified by project properties
+5a58c8f	2013-08-12		Change the target information
+53ed576	2013-08-10		Enyo-2636: Target Configuration UI - Change the Emulator Name
+08fb01d	2013-08-10		Enyo-2636 : Target Configuration UI - fix some UI bug
+5b6db0f	2013-08-03		added readline to npm-shrinkwrap.json
+8033a5b	2013-08-02	 (tag: lg-pilot-2)	Update README.md
+442bacd	2013-08-02		ENYO-2735: fixed indent
+c87bb18	2013-08-02		ENYO-2735: add getkey option to download ssh private key named webos_rsa from http://<target ip>:9991/webos_rsa
+8565d03	2013-08-02		ENYO-2817: Ares-package needs to modify the executable permission for Native App from package.properties
+8768204	2013-08-02		ENYO-2812: fixed to write stdout only once for app list
+3dac9cb	2013-08-01		bugfix : -i option is not work.
+ead9d31	2013-08-01		bugfix : novacom.js
+1c14e72	2013-08-01		ENYO-2636/2637 : Target Configuration UI - Add new Target configuration UI - Add target load / save function sequence
+058ef8e	2013-07-30		ENYO-2780: removed /o from xcopy due to the admin permission problem
+8496d89	2013-07-29		ENYO-2401: bugfix for adding temp node module
+7e74dce	2013-07-26		ENYO-2149: removed a wrong closing brace
+6ee3189	2013-07-26		ENYO-2149: show service debugging popup only when selected project have service directory
+cba1ed6	2013-07-25		ENYO-2401: fixed bug causing rsync error when ares try to make package secondly
+fa19d9c	2013-07-25		ENYO-2393: added condition to run service debugging without appId
+fa8cf65	2013-07-24		ENYO-2717: added function to find PID using gdbserver port
+30bf4f3	2013-07-24		Change the IP for TV (revert)
+ffd289e	2013-07-23		ENYO-2717: added env variables for running SDL native app
+275d4a2	2013-07-23		ENYO-2401: fixed indent
+a3f90fe	2013-07-23		ENYO-2398 : Add UI option for debugging minified vs. full application - delete unnecessary conditions
+1d70366	2013-07-23		ENYO-2398 : Add UI option for debugging minified vs. full application - Debug : Build (non-minified) -> install -> launch -> debug (web inspector) - Run : Build (minified) -> install -> launch
+7ff7b9b	2013-07-23		ENYO-2401: fixed an invalid next() function call
+f8d1960	2013-07-23		ENYO-2543 : Appinfo.json is not modified by project properties
+e5dac03	2013-07-22		ENYO-2717: added +x to ares-inspect.js, ares-gdbserver.js
+72a57b0	2013-07-22		ENYO-2717: fixed indent
+a00b57e	2013-07-22		ENYO-2717: support SIGINT to kill gdbserver before terminating (using readline node module)
+fba4cbe	2013-07-22		ENYO-2717: made killPrevGdbserver func as gdbserver member func, added closeSession member func
+060327e	2013-07-22		ENYO-2717: add CLI to run gdbserver for native app debugging (require ENYO-2393-sparkleholic first)
+993eed3	2013-07-22		ENYO-2717: add CLI to run gdbserver for native app debugging
+47f083b	2013-07-19		ENYO-2717: add CLI to run gdbserver for native app debugging
+2e4cd68	2013-07-19		ENYO-2397: prevent twice build/install about debug menu
+a19046f	2013-07-19		ENYO-2393:recover missing code
+756ffad	2013-07-18		GF-6936: Fix typo.
+4bfdfff	2013-07-18		GF-6936: Updates to add flexibility to packaging for alternate app layouts: 1.) Add "additionalHtmlFiles" field, to support path rewriting into additional html files, not just the "main" entry point file 2.) Add "assets" field, to support copying any additional files/folders not covered by the standard bootplate deploy script 3.) Add "exclude" field, to support excluding certain files/folders from the deployed files 4.) Make copying of framework_config.json optional, since Enyo 2 apps no longer require that 5.) Remove the packager-only fields (those above, plus onDeviceSources) from the on-device version of appinfo.json
+71b3ed3	2013-07-19		ENYO-2677:script under bin directory can find the node module properly
+884d148	2013-07-19		ENYO-2677:added new line at EOF
+d16a52e	2013-07-19		ENYO-2149: open node debugging webpage only when ares can get response from node-inspector
+434909c	2013-07-19		ENYO-2149: fixed return value for launching app at webos3 emulator
+8cdce4b	2013-07-19		ENYO-2149: added missing comma
+de2487b	2013-07-19		ENYO-2149: launch service debugging at ares > project Menu > debug
+9fea067	2013-07-19		ENYO-2677: removed test output message
+cfca63e	2013-07-18		ENYO-2149: add function to get serviceIDs from project
+83087cc	2013-07-18		ENYO-2677: fixed script to find path of ares-inspect.js
+6af0c15	2013-07-18		add script file to launch ares-inspect node module
+6eeb4de	2013-07-18		ENYO-2393: removed test code
+6fe4176	2013-07-18		ENYO-2393: removed commented block
+b9e6843	2013-07-18		ENYO-2397 : Update ares-webos-sdk build steps to be cumulative - Add function calls for run.
+108d5a7	2013-07-18		ENYO-2393: support debugging for multi-serviceIds
+4b40059	2013-07-18		ENYO-2393: support debugging for multi-serviceIds
+b063c48	2013-07-17		ENYO-2393: fixed bug related to CLI ares-novacom # forward
+2fe2d04	2013-07-16		ENYO-2543 : Appinfo.json is not modified by project properties
+3697295	2013-07-16		ENYO-2401: added rsync info to package.json
+5714f88	2013-07-16		ENYO-2393: added passphrase info to novacom-devices.json
+8f8bae5	2013-07-15		ENYO-2393: added code for cleanup (incomplete)
+21369d6	2013-07-15		ENYO-2393: kill previous service before launch service with debug
+ba0540e	2013-07-15		ENYO-2393: added logic to check active port for debug node
+4c768f0	2013-07-12		ENYO-2401:fixed indent
+64ce5aa	2013-07-12		ENYO-2401: update npm-shrinkwrap
+c0e3df8	2013-07-12		ENYO-2401: keep file mode and permission while copying
+c9c4fa6	2013-07-10		ENYO-2394 : Add ares-launch -i option to support launch + inspect - delete unused code - add inspector actions in launcher.js
+d6b3216	2013-07-10		ENYO-2694: update ares-webos-sdk: wrt/ pluginClient/pluginUrl/pluginDir
+89691e7	2013-07-09		test for node-inspector on webos
+7840725	2013-07-03		ENYO-2680: fixed wrong code for getting app list
+0c97f7c	2013-07-03		ENYO-2680: fixed api name for getting app list for webos-pro emulator
+efe2bf4	2013-07-01		GF-6936: Fix missing next() call. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+00a1cc8	2013-06-28		ENYO-2080: when Project Property popup change status, webos plug-in initialize service list selection
+38751fa	2013-06-28		ENYO-2080: fixed wrong comment
+47088ea	2013-06-28		handle onChangeProjectStatus event to show/hide service add button
+4c1f4ce	2013-06-27		ENYO-2080: handle onProjectSelected event when adding service into project
+c46c966	2013-06-27		GF-6936: Fix mistake in placement of next() call. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+a4980b9	2013-06-27		GF-6936: Exclude adding services to package info for ROM option. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+03f02b7	2013-06-27		GF-6936: Exclude creating package folder for ROM option. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+077ab57	2013-06-27		GF-6936: Revert accidental change to ares-package.sh. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+8930278	2013-06-27		GF-6936: Exclude package folder from ROM option. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+809695d	2013-06-27		GF-6936: Turn verbosity back off. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+922d723	2013-06-27		GF-6936: Bump enyo submodule. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+bf2d7e8	2013-06-27		GF-6936: Bump enyo submodule. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+613b836	2013-06-27		GF-6936: Use GF-6936-kevinpschaaf branch for now. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+1d884a4	2013-06-27		GF-6936: Adding enyo submodule, so that deploy.js and its dependencies (deploy, minify, loader, walker, etc.) are available for passing to ares-package.sh via the new --deployscript argument, for building apps that have all submodules being re-directed on-device, which eliminates the need to clone the app recursively. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+07aa616	2013-06-27		GF-6936: Add support for specifying a deploy script that's outside the app (for building apps with uninitiated submodules), when then requires support for redirecting lib back to the app folder when enyo may be mapped elsewhere. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+f55abe5	2013-06-26		ENYO-2595: Nighty build result of ARES is craked
+5a0544c	2013-06-26		ENYO-2599: modifying submodule path to have a relative github url
+4decd66	2013-06-25		ENYO-2599: added ares-generator in package.json, removed unzip from package.json, generated npm-shrinkwrap.json from 'npm shrinkwrap'
+0936a46	2013-06-25		ENYO-2599: added ares-generator into submodule
+c67f1a3	2013-06-25		ENYO-2599: removed unzip,ares-generator from submodule
+b6b36b6	2013-06-25		ENYO-2599: removed unzip from submodule
+789308f	2013-06-25		ENYO-2392: comment-out source using the private ares file.
+93789c9	2013-06-24		ENYO-2599: fixed indent
+cbcf975	2013-06-24		ENYO-2599: removed warn when npm install
+3b8deae	2013-06-24		ENYO-2080: Allow webOS service file scaffolding to be added to project
+e27beac	2013-06-24		ENYO-2562: integrate new `Generator#generate()` interface (test & complete)
+8e686a7	2013-06-24		ENYO-2562: use relative Git URL (allow checkout from https)
+a870fa1	2013-06-22		GF-6936: Add path alias variables for onDeviceSources, and rewriting all script/link tags based on onDeviceSource mapping list. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+e4f34bc	2013-06-21		ENYO-2562: add options parameter when calling ares-generator.generate function
+80e9cd6	2013-06-20		GF-6936: Second pass at on-device source handling. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+96837c6	2013-06-20		removed test ip
+cc6aee1	2013-06-21		ENYO-2393 : Add ares-inspect shell script and node library for inspecting webapp/node service - Add inspector.js / ares-inspect.js scripts for web app debugging - novacom.js : foward() - add parameter for device address - launcher.js : delete unused function (getinspetorport)
+568888c	2013-06-20		fixed wrong device names
+acea67a	2013-06-20		ENYO-2562: make ares-generate to use a new ares-generator
+d42900a	2013-06-20		ENYO-2562: make ares-generate to use a new ares-generator
+7e7d5b3	2013-06-19		added ares-generator as a git submodules
+36e75e1	2013-06-19		modify ares-generate to use new ares-generator
+4aff3d3	2013-06-18		Enyo-2392: removed FIXME comment
+03c5edc	2013-06-18		Enyo-2392: missed one file related to command list to tv
+478143a	2013-06-18		Enyo-2392: changed var name from id to appId
+174a39b	2013-06-17		ENYO-2392: removed test tv ip address
+5fd6a88	2013-06-17		ENYO-2392: forward appid when installing for webos tv
+ba2dc02	2013-06-17		ENYO-2392: install,remove,launch,close for webos tv
+9aea47e	2013-06-17		ENYO-2562: ignore `sprintf` module
+cad02f3	2013-06-17		ENYO-2562: migrate `project-template.json` into `ide-plugin.json`
+d096512	2013-06-17		ignore .DS_Store
+706d5cb	2013-06-17		GF-6936: Initial implementation of on-device source handling. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+688cd9f	2013-06-17		GF-6936: Initial implementation of on-device source handling.
+adb8e1f	2013-06-14		ENYO-2392: add necessary indirections for webos-pro dev-mode
+5c09874	2013-06-14		ENYO-2392: improve traces & comments in luna & novacom
+a252c65	2013-06-12		changed displayTemplateList call location
+ed5be06	2013-06-12		changed variable,function names
+072d043	2013-06-12		fixed indent
+3fac9d7	2013-06-12		fixed indent
+d41962b	2013-06-12		fixed error handling message
+2c4e3bb	2013-06-12		fixed indent
+9686ae9	2013-06-12		ENYO-2392: complete & fix `ares-novacom run xxx`
+077e757	2013-06-12		ENYO-2392: report async error in case of unknown device
+5b2aa1f	2013-06-12		ENYO-2392: load/store devices from/to `%APPDATA%/.ares/novacom-devices.json`
+e04a492	2013-06-12		ENYO-2345: rework ENYO-2345
+bb461e7	2013-06-11		ENYO-2392: implement `novacom list`, based on `novacom.Resolver#load()`
+25b0196	2013-06-11		ENYO-2392: add dependency on `sprintf` & update shrinkwrap
+c10bb98	2013-06-11		ENYO-2392: hard-wire `node-unzip` version & clean debugs
+cb89b7a	2013-06-11		ENYO-2392: `novacom.Resolver()` now loads the device table from a file
+137f1a6	2013-06-11		ENYO-2396 : Update ares-webos-sdk server endpoints for debugging - add debug related functions
+7ba802e	2013-06-09		ENYO-2345: fixed initial service directory name
+750bf56	2013-06-09		ENYO-2345: removed unnecessary code
+34dba7e	2013-06-09		ENYO-2345: modified generator to use temp directory alike new project-gen
+8d2f4d1	2013-06-05		ENYO-2345: fixed indent
+2e09a79	2013-06-05		ENYO-2345: fixed comments on code
+1a1fd4d	2013-06-05		ENYO-2345: fixed indent
+66c1312	2013-06-05		ENYO-2345: fixed indent
+ca14c6a	2013-06-05		ENYO-2345: add --add-service flag to ares-generator
+f4ee84c	2013-06-04		ENYO-2391: after copying app to staging area, then removing files which user wants to exclude
+1df72c0	2013-06-03		ENYO-2391: remove a blank letter in help
+7bee9b4	2013-06-03		ENYO-2391: Add --app-exclude flag to ares-package
+334674b	2013-05-30		ENYO-2468: update NPM dependencies (patch-level)
+9d76637	2013-05-28		ENYO-2147: fix bug, app whitch doesn't contain deploy.js is also able to package properly
+d942142	2013-05-27		ENYO-2347, ENYO-2359: fix Javascript syntax error & enrich novacom.Resolver DB
+6f6bf1b	2013-05-27		ENYO-2359: complete pull-request with missing plugin id
+bfed6a3	2013-05-24		ENYO-2359 : Ares UI for Target Selection - rename the webos build plug-in (OpenWebOS Build --> WebOS Build) - add Target Selection UI on AresProperties (AresProperties.js) - add target check routine in webos build service
+c8977ae	2013-05-24		ENYO-2359 : Add conditions - check the target is webos tv or not. - if target is a "tv", use the new service name. if not, use the previous service name
+a97fa2c	2013-05-24		Revert "Revert "Revert "ENYO-2359 : Ares UI for Target Selection"""
+517c936	2013-05-24		Revert "Revert "ENYO-2359 : Ares UI for Target Selection""
+9f2dd79	2013-05-24		Revert "ENYO-2359 : Ares UI for Target Selection"
+3a68425	2013-05-24		ENYO-2359 : Ares UI for Target Selection - rename the webos build plug-in (OpenWebOS Build --> WebOS Build) - add Target Selection UI on AresProperties (AresProperties.js) - add target check routine in webos build service
+afa6dc8	2013-05-24		ENYO-2147: moved comment location
+6b09d47	2013-05-24		ENYO-2147: fixed bug modifying packageinfo.json for including service
+0409183	2013-05-22		ENYO-2147: Package a service-enabled application
+4422cb0	2013-05-22		ENYO-2147: Package a service-enabled application
+2314f5e	2013-05-22		ENYO-2147: Package a service-enabled application
+8583378	2013-05-22		ENYO-2147: Package a service-enabled application
+130812b	2013-05-22		ENYO-2147: Package a service-enabled application
+8096d94	2013-05-22		ENYO-2147: Package a service-enabled application
+a4abc76	2013-05-22		ENYO-2147: Package a service-enabled application
+af9d3ef	2013-05-22		Package a service-enabled application
+9d61d4f	2013-05-14		ENYO-2359: webos application launch service name is changed - changed application Manager (com.palm.applicationManager --> com.webos.applicationManager) - changed variable (processId --> procId)
+f04e15b	2013-05-09		ENYO-2357
+c427054	2013-05-06		ENYO-2339: rename `webos-sdk` into `ares-webos-sdk`
+ba05d99	2013-05-05		ENYO-2339: rename `nodejs-module-webos-ipkg` into `webos-sdk`
+6a291e8	2013-05-05		ENYO-2349: start updating the DEMO.md script
+3d5a8f1	2013-05-05		ENYO-2349: ares-launch: add --inspect
+01196da	2013-05-05		ENYO-2349: clean-up traces & comments
+8dd4226	2013-05-05		ENYO-1938: add ares-novacom command (2)
+34ebb59	2013-05-03		ENYO-1938: add ares-novacom command, with put/get/run/forward/list cmds
+2fcfacd	2013-05-02		ENYO-1938: cleanups (traces)
+19dd809	2013-05-02		ENYO-1938: cleanups (indents, dup code)
+0f43a4c	2013-04-30		start working on 0.1.3
+8d370d4	2013-04-29		ENYO-1938: update ssh2 to have `forwardOut` tunnelling.
+e05379e	2013-04-26		ENYO-2106: add bin/README.md
+1dde480	2013-04-26		ENYO-2106: complete move ares-*.js commands from lib/ to bin/
+4bcfe28	2013-04-25		ENYO-2106: use NPM automatic wrappers as new wrapper templates
+a994e11	2013-04-25		ENYO-2106: rename ide.json into ide.plugin.json
+e3dfaf1	2013-04-25		ENYO-2106: plugin depends on `%PLUGINDIR%`, not on `%INSTALLDIR%`
+4e44333	2013-04-25		ENYO-2106: update package.js & consequently npm-shrinwrap.json
+cf60288	2013-04-25		ENYO-2106: re-indent with leading tabs (Enyo coding standard)
+1d9ab36	2013-04-25		ENYO-2106: working on version 0.1.2 (0.1.1 was already released)
+c20e19f	2013-04-24		ENYO-2291: fix errors on win7/ie9
+740fd62	2013-04-23		ENYO-2291: really use npmlog & survive to stopped emulator
+df2e194	2013-04-23		ENYO-2291: openwebps implement `build` and `test` service interface
+8255bc3	2013-04-19		ENYO-2291: pass `install()` & `launch()` verbatim error text to the user
+9f70e0b	2013-04-19		ENYO-2291: do not re-assign the context of common-us callbacks
+fd2aad6	2013-04-19		ENYO-2291: remove express-2.x code
+e4208f2	2013-04-18		ENYO-2233: Fixed loading issue of package.json
+86e96ac	2013-04-17		ENYO-2233: Fixed dependency issue in package.json and updated npm-shrinkwrap.json
+76188dd	2013-04-17		ENYO-2029: do not log exception backtraces by default
+d8b758d	2013-04-17		ENYO-2016: fail when no emulator is present
+209d5bc	2013-04-17		ENYO-2016: do not report full stack-trace at no debug tracing level
+754366a	2013-04-17		ENYO-2016: fix wrong options shorthands
+2c1ea42	2013-04-17		ENYO-2083: For Ares plugin, use the project template definition used by ares-generate
+05e57d1	2013-04-17		ENYO-2273: fix failing ares-install with non-`default` emulator
+1430d5c	2013-04-15		ENYO-2233: Check node version matches package.json. Display module version from package.json
+5c21cab	2013-04-15		ENYO-2233: Added node-semver as a git submodule
+eba5242	2013-04-15	 (tag: 0.1.1)	0.1.1
+e6c3242	2013-04-15		ENYO-2233: Added requirements about node and npm version
+081786e	2013-04-10		ENYO-2028: Fixed undefined in command usage when --help option was specified
+069b85f	2013-04-10		ENYO-2028: Cleanup undocumented options. Documented and fixed --no-minify option
+3a1a314	2013-04-10		ENYO-2028: Fixed undefined in command usage
+9109e49	2013-04-10		ENYO-2028: Removed --verbose for ares-generate
+f549d58	2013-04-10		ENYO-2028: Updated defaultTemplate, fixed and documented --repository option
+41793af	2013-04-10		ENYO-2028: Fix review comments
+e9bb7e4	2013-04-09		ENYO-2028: remove dependency on optimist (replace by nopt)
+85df7d9	2013-04-09		ENYO-2070: Updated documentation for project templates, ..., reworked .md files to avoid redundancies, …
+cc092a2	2013-03-30		ENYO-2125: allow forking the GitHub project
+a17a13a	2013-03-25		ENYO-2029: added FIXME for probably missing (or unclear) error handling
+a5bbe6a	2013-03-22		ENYO-2092: Removed a erroneous '-b" in almost all .sh files
+2119ba4	2013-03-21		ENYO-2091: fix instructions typo & add tunnelling tip
+08c5dcc	2013-03-21		ENYO-2091: update NPM dependencies (align with Ares)
+4cc7498	2013-03-21		ENYO-2091: ignore Emacs backup files & node_modules at absolute location
+d58059b	2013-03-21		ENYO-2091, ENYO-2030: pick node-tare from github:enyojs/node-tar
+21ba492	2013-03-20		Revert "ignore .DS_Store"
+ab8b728	2013-03-20		ignore .DS_Store
+b7c6b20	2013-03-20		Update node paths in ares scripts
+9f307f7	2013-03-20		Revert "ignore .DS_Store"
+f72e76d	2013-03-20		ignore .DS_Store
+c38b3c5	2013-03-20		ENYO-2083: Add bootplate nightly to ares-generate
+3de0ca6	2013-03-20		ENYO-2053: Template definition now references enyojs.com
+79c54f4	2013-03-20		ENYO-2053: Use template definition from enyojs.com
+09a9462	2013-03-20		ENYO-2053: The plugin implementation is now instanciated by ServiceRegistry.
+6f3396d	2013-03-20		ENYO-2053: Minor changes: traces, service active by default
+3773e74	2013-03-20		start working on 0.1.0 following publication of 0.0.3
+e055097	2013-03-19		ENYO-2085: Clean Up the nodejs-module-webos-ipkg/ares/server/main.js zombie process
+0523bb3	2013-03-18		ENYO-2018: Added bootplate 2.2.0 to ares-generate
+8da695b	2013-03-18		ENYO-2054: Fixed ide.json
+f84dc5e	2013-03-18		ENYO-2064: add usage isntructions from Ares
+bc03a0f	2013-03-18		ENYO-2055: Use hermes export operation to get the project folder as a FormData with base64 data
+5682748	2013-03-14		Update demo script for new Jenkins builds.
+cee5623	2013-03-14		ENYO-2064: Install and launch app after webos build done from the IDE
+7d30241	2013-03-13		ENYO-2064: Install and launch app after webos build done from the IDE
+f1d96f3	2013-03-13		Updated paths in shell/batch scripts to match new folder structure. Enyo-DCO-1.1-Signed-off-by: Kevin Schaaf <kevin.schaaf@lge.com>
+92ef765	2013-03-13		ENYO-2063: Assume the nodes version is checked by the main nodejs Ares code (ide.js)
+7597b23	2013-03-08		ENYO-2053: Swiitch back to https://github.com/enyojs/node-unzip
+6c31414	2013-03-08		ENYO-2026: At plugin load time, add webOS templates for project creation
+589fd89	2013-03-08		ENYO-2026: Updated package.json to enable npm pack
+fd1b5a4	2013-03-08		ENYO-2026: Updated README*.md and DEMO.md following repo merge
+7c4c758	2013-03-07		ENYO-2026: Updated npm-shrinkwrap following repo merge
+c04436d	2013-03-07		ENYO-2026: Fixed dependencies following repo merge
+b24f93a	2013-03-07		ENYO-2026: Prepared for repo merge
+4064729	2013-03-07		ENYO-2026: Prepared for repo merge
+2dd3078	2013-03-07		ENYO-2027: Re-enable temp dir cleanup
+806dcd7	2013-03-07		ENYO-2027: Fixed file corruption caused by fs.createReadStream on some some files.
+3f0fb6e	2013-03-06		release version 0.0.2
+adfae7a	2013-03-04		ENYO-2026: Refined ares-plugin definition
+d310676	2013-03-01		ENYO-1783: Updated to latest nodejs-module-webos-ipkg
+47f7975	2013-03-01		ENYO-1783: First working version
+8241288	2013-03-01		ENYO-1783: Return the ilk filename on success
+af02504	2013-03-01		master: updated submodule to merged master branch
+253acaa	2013-03-01		ENYO-1783: added some clarifications
+b79ba04	2013-02-28		ENYO-1783: Added node_modules/nodejs-module-webos-ipkg as a git submodule
+ad77ddb	2013-02-28		ENYO-1783: Added node_modules/nodejs-module-webos-ipkg as a git submodule
+b7c0501	2013-02-28		ENYO-1999: Forgot to deliver SSH-KEY-SETUP.md via npm pack
+f438475	2013-02-27		ENYO-1783: First loadable version
+e7097b5	2013-02-27		ENYO-1783: Create the first Ares plugin
+3e74326	2013-02-27		ENYO-2006: Added instructions for ssh key setup (MANDATORY for ares-install and ares-launch)
+3c0168e	2013-02-27		ENYO-1999: Fixed ares-ide.sh to allow running it from everywhere
+fbe4173	2013-02-27		ENYO-1999: Updated REAME.md for Jenkins build
+bc82b2d	2013-02-27		ENYO-1999: Allow alternate url and relative file names in templates definition.
+315625d	2013-02-27		ENYO-1999: Allow alternate url in templates definition.
+c1a54d8	2013-02-27		ENYO-1999: Allow relative file names in templates definition.
+f3ef7c4	2013-02-26		ENYO-1999: Updated DEMO.md
+e57d911	2013-02-26		ENYO-2006: Refined ares-install and ares-launch (success message, usage, …)
+8c77557	2013-02-26		ENYO-2006: Display a message on successful package removal
+ccfdd21	2013-02-26		ENYO-2006: Display a message on successful launch of an application  - Updated package.json to run all tests  - Fixed typos and added a few traces
+db7c0c3	2013-02-25		ENYO-2006: Display a message on successful installation of a package
+9d62b49	2013-02-25		ENYO-2006: Display a message on successful installation of a package
+6d1d39c	2013-02-25		ENYO-2006: Added ares-install and ares-launch wrappers for Windows
+d998cd6	2013-02-25		ENYO-1999: Updated README.md: fixed instructions and added instructions to use ares-install from a VM (Windows, …)
+15aa5d9	2013-02-25		ENYO-1999: Allow templates file definition to be retrieved from disk and from http  - Added a template directory which contains local template definition (templates brought by the SDK)  - Resolve template directory path on the fly from the path of the executed js script  - Fixed a few messages
+9fb1b69	2013-02-25		ENYO-1981: Fixed bad ar archive format issue (header must be aligned on 2 byte boundaries)
+c79bcc2	2013-02-25		ENYO-1999: Allow templates file definition to be retrieved from disk and from http
+a1a2d2f	2013-02-25		ENYO-1981: Fixed bad ar archive format issue (header must be aligned on 2 byte boundaries)  - Fixed a few messages
+907bc63	2013-02-25		ENYO-2006: Added ares-install and ares-launh wrappers
+ad19ea5	2013-02-25		ENYO-1999: Updated DEMO.md with path information, removed ares-deploy as it's integrated into ares-package
+b249324	2013-02-24		ENYO-1998: Display temp dir name when --noclean is specified
+1bce52d	2013-02-23		ENYO-1783: Updated package version and info on PATH settings
+ac9e859	2013-02-22		ENYO-1967, ENYO-1981: Integrated ares-install, ares-launch and javascript ar archiver
+7053d51	2013-02-22		ENYO-1981: Turn native cmd off by default for ares-package
+0195355	2013-02-22		ENYO-1981: Fixed .gitignore and npm-shrinwrap.json
+d879fc1	2013-02-22		nail down dependency
+9da0649	2013-02-22		ENYO-1981: fix ar packaging
+9543717	2013-02-22		fix trace with undef data
+03f500c	2013-02-22		Added javascript ar implementation
+0de7b7b	2013-02-22		ENYO-1967: Timer of ares-install test was a bit short on Windows (Virtualized env)
+0b38ceb	2013-02-22		ENYO-1998: Updated nodejs-module-webos-ipkg from ENYO-1998
+62dca2a	2013-02-22		ENYO-1967: implement & test `launcher#launch`
+fff2b91	2013-02-22		ENYO-1999: Update package version
+4fb6309	2013-02-22		ENYO-1967: add verbatim copy of `palm-install --help`
+ccc9ea8	2013-02-22		ENYO-1967: `stream-buffers` is a run-time dependency of `installer.js`
+575e5ed	2013-02-22		ENYO-1967: update `npm-shrinkwrap.json`
+8f8d2d2	2013-02-22		ENYO-1967: add dependency on `graceful-fs`… otherwise it breaks tests
+06810ea	2013-02-22		ENYO-1967: shrink `Eof` to the max
+b3cba2f	2013-02-22		ENYO-1967: `luna.js` use function-based stream handlers + Eof Stream
+f28ceb2	2013-02-22		ENYO-1967: remove dependency on `bufferstream` binary module (add-on)
+77c9202	2013-02-22		ENYO-1967: complete function-based stream handlers
+8b2cb87	2013-02-22		ENYO-1967: add function-based stream handlers for _novacom run_
+5a3827e	2013-02-21		ENYO-1967: Updated nodejs-module-webos-ipkg from ENYO-1967
+1838715	2013-02-21		ENYO-1992: use correct order for native ar command
+0dd0644	2013-02-21		ENYO-1783: Added ares-generate.bat and ares-package.bat
+2fbdeda	2013-02-21		ENYO-1992: fix control.tar.gz generation
+9f2d1af	2013-02-21		ENYO-1967: put nodejs-module-webos-ipkg on branch ENYO-1967
+0e9e590	2013-02-21		ENYO-1967: add `ares-install.js` with usage instructions
+0abf1fb	2013-02-21		ENYO-1967: add dependency on `npmlog`
+00697a1	2013-02-21		ENYO-1967: reformat README.md using practices of mainstream node modules
+0846ff8	2013-02-21		ENYO-1967: installer: export npmlog level in the public interface
+b21fe2c	2013-02-21		ENYO-1783: Merged from master
+94f08cd	2013-02-21		ENYO-1783: Added a npm_shrinkwrap.json
+aad1775	2013-02-21		ENYO-1967: installer: hook to the main module object
+f5a02f4	2013-02-21		ENYO-1967: installer: add more tests
+639a571	2013-02-21		ENYO-1967: implement `installer#remove`
+74d6f96	2013-02-21		ENYO-1967: installer now demands a completion callback
+240c250	2013-02-21		ENYO-1967: fix traces s/Installer/installer/g
+9c603fc	2013-02-21		ENYO-1992: fstream needs to be specified the type of the input
+c9651c0	2013-02-21		ENYO-1967: add dependency on `nopt` (npm options parser)
+6919419	2013-02-21		ENYO-1967: re-indent package.json according to EnyoJS coding standards
+90ff668	2013-02-21		ENYO-1967: re-indent ipkg-tools according to EnyoJS coding standards
+becd8cf	2013-02-21		ENYO-1967: replace `palm-&` by `ares-*`
+68d2164	2013-02-20		ENYO-1967: implement `installer#list` & publish `sdk.spec.js`
+a604dff	2013-02-20		ENYO-1967: increase `luna` parameters coverage (for `installer#list`)
+a871194	2013-02-20		ENYO-1967: decrease `novacom` verbosity
+6191895	2013-02-20		ENYO-1967: rename `install.spec.js` into `sdk.spec.js`
+12e6f5b	2013-02-20		ENYO-1783: fixed execution issue of minifier on Windows
+f1b018d	2013-02-20		ENYO-1783: Added a npm_shrinkwrap.json
+b60e745	2013-02-20		ENYO-1783: Fixed issue on minifier messages
+97f5e9b	2013-02-20		ENYO-1783: Added a npm_shrinkwrap.json
+ea7d6f4	2013-02-20		ENYO-1783: Fixed issue on minifier messages
+58f6c1b	2013-02-20		ENYO-1783: webos-sdk-commands must be installable on Windows
+608eb7f	2013-02-20		ENYO-1967: Added instructions to allow installation of the module buffertools on Mac OS X
+93cd0c4	2013-02-20		ENYO-1967: ares-install library implementation
+8cc4706	2013-02-20		ENYO-1783: webos-sdk-commands must be installable on Windows
+c89e355	2013-02-20		ENYO-1967: use `async` & add a test uploading a large file
+45ed282	2013-02-20		ENYO-1783: webos-sdk-commands must be installable on Windows
+2fb7bf6	2013-02-20		ENYO-1967: improve tracing & w/a drop bear missing packet
+f3c1116	2013-02-20		ENYO-1783: webos-sdk-commands must be installable on Windows
+85d6a90	2013-02-20		nail down dependency version
+bd9525d	2013-02-20		really fixed github url
+8867db6	2013-02-20		fixed npm url pointing towards github
+7e14831	2013-02-20		ENYO-1967: drop novacom.JobQueue
+df11b65	2013-02-19		ENYO-1998: Fixed output formatting of the minifier sub-process
+bf7e729	2013-02-18		ENYO-1967: javascript wrapper on remote luna-send
+47237be	2013-02-18		ENYO-1967: cleanup
+6e0c5f3	2013-02-18		ENYO-1998: Invoke deploy.js to minify the application
+f93b31b	2013-02-18		ENYO-1998: Invoke deploy.js to minify the application
+303858c	2013-02-18		ENYO-1967: add dependency on `bufferstream`
+f646562	2013-02-18		ENYO-1997: Modified node-unzip version set the permissions ENYO-1783: Remove existing ipk before creating a new one
+45adf7a	2013-02-18		ENYO-1997: Fixed node-unzip version
+e5bbfb7	2013-02-18		ENYO_1992: fixed trace
+35befbf	2013-02-18		ENYO-1992: factorize make*Tar in makeTgz
+79d7e3a	2013-02-18		ENYO-1997: Execute npm install for node-modules/unzip
+682042e	2013-02-18		ENYO-1997: Modified node-unzip version set the permissions
+d1987ce	2013-02-18		ENYO-1992: create control.tar.gz with node-tar
+0997947	2013-02-18		ENYO-1992: call next when write in done (on close event)
+a9dcb49	2013-02-18		ENYO-1992: replaced addLine with call to array.join
+908b030	2013-02-18		ENYO_1992: makeDataTar: removed call to native command
+f6b01e2	2013-02-18		ENYO-1992: added missing call to next()
+9fd11b0	2013-02-18		ENYO-1992: trace change
+c7f1ad7	2013-02-18		ENYO-1992: remove comment from package.json
+8c855c6	2013-02-18		ENYO-1992: added temporary URL for node-tar
+78721fc	2013-02-18		ENYO-1992: MakeDataTar: replaced node-archiver with node-tar
+1c40cce	2013-02-18		ENYO-1967: release npm version constraints & run `npm dedupe`
+6e77eed	2013-02-18		ENYO-1967: add slow-start & indirection via a device resolver
+b5e80b8	2013-02-18		ENYO-1783: Remove existing ipk before re-generating it.
+3c13de8	2013-02-18		ENYO-1997: Moved node-unzip dependency to a sub-module to allow fixing permission issues.
+3e732b5	2013-02-15		Update ares-deploy.sh
+315d466	2013-02-15		Update ares-deploy.sh
+92b71cf	2013-02-15		Update DEMO.md
+07a04de	2013-02-15		Update DEMO.md
+b9c6d3f	2013-02-15		Update DEMO.md
+daef468	2013-02-15		Update DEMO.md
+249f595	2013-02-15		ENYO-1967: update instructions after review comments
+3153aa8	2013-02-15		ENYO-1967: update stream-buffers, following bug-fix upstreamed
+0b8bb7b	2013-02-15		reformat
+96ad1b5	2013-02-15		ENYO-1783: Updated DEME.md, Added -b option to ares-ide.sh to launch the browser. Added DEMO.md, … in the output of npm pack
+b594bf8	2013-02-15		ENYO-1967: update for Open webOS Pro
+8db7810	2013-02-14		wrapper script for ares IDE
+feb3e4e	2013-02-14		demo instruction
+b9d8fdd	2013-02-14		ares-deploy wrapper
+8d99849	2013-02-14		Put our included node first
+583ca0c	2013-02-14		Update README.md
+a6b9b68	2013-02-14		Update README.md
+933d732	2013-02-14		ENYO-1783: Integrated ares-generate.sh and ares-package.sh  - Moved palm-*.js into lib/ares-*.js  - Updated ares-*.sh to use .js files under lib
+177da87	2013-02-14		ENYO-1967: implement `novacom run` over SSH + more tests
+2275914	2013-02-14		ENYO-1783: Updated to latest nodejs-module-webos-ipkg
+b36dfa2	2013-02-14		ENYO-1783: nom pack generates an All-in-One package tarball with all the nom dependencies included (Useful for Jenkins build)
+1fa6723	2013-02-14		ENYO-1783: Simplified the installation process to only two steps (see README.md)
+bdf604d	2013-02-14		ENYO-1967: depend on `nopt` (not `optimist`) for options parsing
+88a7267	2013-02-13		Update README.md
+bc12fe2	2013-02-13		Update README.md
+5dbe234	2013-02-13		ENYO-1967: Fixed a few things in README.md
+17d61ba	2013-02-13		ENYO-1783: added a warning when skipping files with long names
+17edb48	2013-02-13		ENYO-1967: add detailed usage instructions
+6f19361	2013-02-13		ENYO-1967: replace `winston` by `npmlog`
+bc21f4e	2013-02-13		ENYO-1967: update jsdoc & fix properties public/private scope
+ba0c211	2013-02-13		ENYO-1967: implement run-queue design-pattern
+d3a854d	2013-02-12		ENYO-1967: add SSH-based novacom
+78119dc	2013-02-11		ENYO-1967: add dependency on node-ssh2
+78aa823	2013-02-11		ENYO-1967: fix an nom deduce conflict
+5316de9	2013-02-11		ENYO-1967: re-indent package.json with leading tabs (like Enyo code)
+e69d70c	2013-02-11		ENYO-1783: Updated sub-module and added --check to package command
+8f908f1	2013-02-11		ENYO-1783: Added a few comments
+6eb7af9	2013-02-11		ENYO-1783: Updated README.md
+34796af	2013-02-11		ENYO-1783: Handle correctly --no-nativecmd to switch to node-archiver instead of native tar command
+8e8a328	2013-02-11		ENYO-1783: Added some additional checkings (at least one app, …)
+d0273d3	2013-02-11		ENYO-1783: Pass the absolute name of the package destination
+e851252	2013-02-11		ENYO-1783: Generate the ilk in the right place
+98fa457	2013-02-11		ENYO-1783: Reworked file generation to used fs instead of shelljs
+7e986e8	2013-02-11		ENYO-1783: Handle silent flag of shelljs.exec based on user options
+335493f	2013-02-11		ENYO-1783: Reworked file generation to used fs instead of shelljs
+52f290b	2013-02-11		ENYO-1783: Reworked debug option handling, added message on success
+89d3e9f	2013-02-08		ENYO-1783: Fixed destination when destination is the current directory
+2534af5	2013-02-06		ENYO-1783: Updated to nodejs-module-webos-ipkg merged version on master
+1832f61	2013-02-06		ENYO-1783: First packager working version (see restrictions and shortcuts below)  - Still using native tar command as node-archiver is buggy (mostly working except for some files)  - Still using native ar command as we don't have yet an ar archiver in nodes  - A few hardcoded values or things to clarify  - No minification yet: the package command must be started on the deploy directory generated by deploy.sh  - Missing checkings  - Missing options --exclude* --no-exclude*, ...  - And probably some more issue
+0520eae	2013-02-06		ENYO-1783: First packager working version (see restrictions and shortcuts below)  - Still using native tar command as node-archiver is buggy (mostly working except for some files)  - Still using native ar command as we don't have yet an ar archiver in nodes  - A few hardcoded values or things to clarify  - No minification yet: the package command must be started on the deploy directory generated by deploy.sh  - Missing checkings  - Missing options --exclude* --no-exclude*, ...  - And probably some more issue
+128d873	2013-02-06		ENYO-1783: Created README.md to include instructions and examples  - Added .gitignore  - Updated submodule
+3a8f550	2013-02-06		ENYO-1783: Updated nom dependencies
+cebedee	2013-02-06		ENYO-1783: Added palm-package.js
+6ab68fa	2013-02-06		ENYO-1783: Moved project generator into its own file
+af99328	2013-02-06		ENYO-1783: Added a ipk packager
+873af90	2013-02-01		ENYO-1015: Updated dependencies
+5be9427	2013-02-01		ENYO-1015: Added submodule nodejs-module-webos-ipkg
+5778dd7	2013-02-01		ENYO-1015: Enhanced version able to work with remote repositories
+e4d3cdf	2013-02-01		ENYO-1015: First version of palm-generate
+f96af99	2013-01-30		ENYO-1015: Used async to orchestrate operations and better isolate functions/operations
+71001e2	2013-01-30		ENYO-1015: Improved formatting of json files after substitutions
+a778e92	2013-01-30		ENYO-1015: Improved error handling on http request
+346fc41	2013-01-30		ENYO-1015: Fixed dependencies and added async
+8822089	2013-01-28		ENYO-1015: Added a README.md
+7f3771b	2013-01-28		ENYO-1015: Zip stream can either be retrieved from the file-system or thru an http request
+fcad213	2013-01-28		ENYO-1015: Unzipping is now done in javascript thanks to node module unzip
+5f82509	2013-01-25		ENYO-1015: Retrieve remote template definition
+7b5cca1	2013-01-25		ENYO-1015: Return an array on method list
+b33fcd4	2013-01-24		ENYO-1015: Set the correct filename in multipart form-data - Changed a little bit the API definition for generate
+106f4ae	2013-01-23		ENYO-1015: Created nodejs-module-webos-ipkg (Should be moved somewhere else later on)
